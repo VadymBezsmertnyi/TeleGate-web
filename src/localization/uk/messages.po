@@ -6,6 +6,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: uk\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
 #. js-lingui-explicit-id
 msgid "Back"
@@ -132,12 +138,12 @@ msgid "Last updated:"
 msgstr "Останнє оновлення:"
 
 #. js-lingui-explicit-id
-msgid "December 7, 2024"
-msgstr "7 грудня 2024"
+msgid "August {numberDay}, 2025"
+msgstr "18 серпня 2025"
 
 #. js-lingui-explicit-id
-msgid "The \"{NAME_APP}\" mobile and web applications are developed and operated by Vadym Bezsmertnyi, FOP (\"us\", \"we\", or \"our\"). This Privacy Policy explains how we collect, use, and protect your personal information when you access and use our mobile application and services (\"Service\")."
-msgstr "Мобільні та веб-додатки \"{NAME_APP}\" розроблені та експлуатуються Вадимом Безсмертним, ФОП (\"ми\", \"нас\" або \"наш\"). Ця Політика конфіденційності пояснює, як ми збираємо, використовуємо та захищаємо вашу особисту інформацію під час доступу та використання нашого мобільного додатку та послуг (\"Сервіс\")."
+msgid "The \"{NAME_APP}\" mobile application and web service are developed and operated by Vadym Bezsmertnyi, FOP (\"us\", \"we\", or \"our\"). This Privacy Policy explains how we collect, use, and protect your personal information when you access and use our Telegram bot management platform and services (\"Service\")."
+msgstr "Мобільний додаток та веб-сервіс \"{NAME_APP}\" розроблено та експлуатується Вадимом Безсмертним, ФОП (\"ми\", \"нас\" або \"наш\"). Ця Політика конфіденційності пояснює, як ми збираємо, використовуємо та захищаємо вашу особисту інформацію, коли ви отримуєте доступ до нашої платформи управління Telegram-ботами та послугами (\"Сервіс\")."
 
 #. js-lingui-explicit-id
 msgid "Information We Collect"
@@ -148,100 +154,120 @@ msgid "Information Collection"
 msgstr "Збір інформації"
 
 #. js-lingui-explicit-id
-msgid "We collect information to ensure the effective functionality of the {NAME_APP} app. The data collected may include:"
-msgstr "Ми збираємо інформацію для забезпечення ефективної роботи додатку {NAME_APP}. Зібрані дані можуть включати:"
+msgid "We collect information to ensure the effective functionality of the {NAME_APP} service. The data collected may include:"
+msgstr "Ми збираємо інформацію для забезпечення ефективної роботи сервісу {NAME_APP}. Зібрані дані можуть включати:"
 
 #. js-lingui-explicit-id
-msgid "Contacts: to create client records."
-msgstr "Контакти: для створення записів клієнтів."
+msgid "Telegram account information: username, user ID, and profile data."
+msgstr "Інформація про обліковий запис Telegram: ім'я користувача, ідентифікатор користувача та дані профілю."
 
 #. js-lingui-explicit-id
-msgid "Calendar data: to synchronize appointments and reminders."
-msgstr "Дані календаря: для синхронізації зустрічей та нагадувань."
+msgid "Group and channel data: information about Telegram groups you manage."
+msgstr "Дані про групи та канали: інформація про Telegram-групи, якими ви керуєте."
 
 #. js-lingui-explicit-id
-msgid "Camera and photo library: to upload client or work photos."
-msgstr "Камера та бібліотека фотографій: для завантаження фотографій клієнтів або робіт."
+msgid "Member data: information about group members for management purposes."
+msgstr "Дані про учасників: інформація про учасників групи для цілей управління."
 
 #. js-lingui-explicit-id
-msgid "Push notifications: to remind users about upcoming appointments."
-msgstr "Push-сповіщення: для нагадування користувачам про майбутні зустрічі."
+msgid "Message templates: custom templates you create for automated messaging."
+msgstr "Шаблони повідомлень: користувацькі шаблони, які ви створюєте для автоматизованого обміну повідомленнями."
 
 #. js-lingui-explicit-id
-msgid "Personal user information: such as name, email address, and phone number."
-msgstr "Особиста інформація користувача: така як ім'я, адреса електронної пошти та номер телефону."
+msgid "Analytics data: usage statistics and performance metrics."
+msgstr "Аналітичні дані: статистика використання та показники продуктивності."
 
 #. js-lingui-explicit-id
 msgid "Subscription information: for managing your account and processing payments."
 msgstr "Інформація про підписку: для керування вашим обліковим записом та обробки платежів."
 
 #. js-lingui-explicit-id
+msgid "Device information: for app functionality and security."
+msgstr "Інформація про пристрій: для функціональності додатку та безпеки."
+
+#. js-lingui-explicit-id
 msgid "Use of Information"
 msgstr "Використання інформації"
 
 #. js-lingui-explicit-id
-msgid "We do not use your information for unrelated purposes without your consent. The collected data is used to:"
-msgstr "Ми не використовуємо вашу інформацію для непов'язаних цілей без вашої згоди. Зібрані дані використовуються для:"
+msgid "We process your data based on legitimate interests and contractual necessity. The collected data is used to:"
+msgstr "Ми обробляємо ваші дані на основі законних інтересів та необхідності виконання договору. Зібрані дані використовуються для:"
 
 #. js-lingui-explicit-id
-msgid "Create client records and appointments."
-msgstr "Створення записів клієнтів та зустрічей."
+msgid "Provide Telegram group management functionality."
+msgstr "Надання функціональності управління Telegram-групами."
 
 #. js-lingui-explicit-id
-msgid "Send SMS reminders to clients."
-msgstr "Надсилання SMS-нагадувань клієнтам."
+msgid "Analyze group activity and member statistics."
+msgstr "Аналіз активності групи та статистики учасників."
 
 #. js-lingui-explicit-id
-msgid "Synchronize the calendar for appointment reminders."
-msgstr "Синхронізація календаря для нагадувань про зустрічі."
+msgid "Send automated messages and notifications through your bot."
+msgstr "Надсилання автоматизованих повідомлень та сповіщень через вашого бота."
 
 #. js-lingui-explicit-id
-msgid "Enable app features such as uploading photos and creating notes."
-msgstr "Увімкнення функцій додатку, таких як завантаження фотографій та створення нотаток."
+msgid "Manage message templates and bot settings."
+msgstr "Управління шаблонами повідомлень та налаштуваннями бота."
 
 #. js-lingui-explicit-id
-msgid "Manage subscriptions and process billing."
-msgstr "Керування підписками та обробка платежів."
+msgid "Process subscriptions and billing."
+msgstr "Обробка підписок та платежів."
 
 #. js-lingui-explicit-id
-msgid "Access to Permissions"
-msgstr "Доступ до дозволів"
+msgid "Improve service functionality and user experience."
+msgstr "Покращення функціональності сервісу та досвіду користувачів."
 
 #. js-lingui-explicit-id
-msgid "Permissions are requested only for functions directly related to the app’s operation. The {NAME_APP} app requires access to the following device features:"
-msgstr "Дозволи запитуються лише для функцій, безпосередньо пов'язаних з роботою додатку. Додаток {NAME_APP} вимагає доступу до наступних функцій пристрою:"
+msgid "Telegram API Integration"
+msgstr "Інтеграція з Telegram API"
 
 #. js-lingui-explicit-id
-msgid "Contacts: to add clients to the app."
-msgstr "Контакти: для додавання клієнтів до додатку."
+msgid "Our service integrates with Telegram's API to provide group management features. We only access data that you authorize through Telegram's authentication process. The {NAME_APP} service requires the following permissions:"
+msgstr "Наш сервіс інтегрується з API Telegram для надання функцій управління групами. Ми отримуємо доступ лише до даних, які ви авторизуєте через процес автентифікації Telegram. Сервіс {NAME_APP} вимагає наступних дозволів:"
 
 #. js-lingui-explicit-id
-msgid "Calendar: to sync events."
-msgstr "Календар: для синхронізації подій."
+msgid "Read group information: to display group details and member lists."
+msgstr "Читання інформації про групу: для відображення деталей групи та списків учасників."
 
 #. js-lingui-explicit-id
-msgid "Camera and photo library: to upload images."
-msgstr "Камера та бібліотека фотографій: для завантаження зображень."
+msgid "Send messages: to deliver automated notifications and templates."
+msgstr "Надсилання повідомлень: для доставки автоматизованих сповіщень та шаблонів."
 
 #. js-lingui-explicit-id
-msgid "Push notifications: to send reminders."
-msgstr "Push-сповіщення: для надсилання нагадувань."
+msgid "Manage groups: to perform administrative tasks you authorize."
+msgstr "Управління групами: для виконання адміністративних завдань, які ви авторизуєте."
+
+#. js-lingui-explicit-id
+msgid "Access member data: to provide member management features."
+msgstr "Доступ до даних учасників: для надання функцій управління учасниками."
+
+#. js-lingui-explicit-id
+msgid "Analytics data: to provide usage statistics and insights."
+msgstr "Аналітичні дані: для надання статистики використання та аналітики."
 
 #. js-lingui-explicit-id
 msgid "Data Security"
 msgstr "Безпека даних"
 
 #. js-lingui-explicit-id
-msgid "Your data is accessible only to you and is not shared without your consent. We use modern technologies to protect your data:"
-msgstr "Ваші дані доступні лише вам і не передаються без вашої згоди. Ми використовуємо сучасні технології для захисту ваших даних:"
+msgid "Your data is protected using industry-standard security measures. We implement the following security practices:"
+msgstr "Ваші дані захищені за допомогою стандартних заходів безпеки в галузі. Ми впроваджуємо наступні практики безпеки:"
 
 #. js-lingui-explicit-id
 msgid "Sharing Information with Third Parties"
 msgstr "Передача інформації третім особам"
 
 #. js-lingui-explicit-id
-msgid "These third parties have their own privacy policies, and we encourage you to review them. We may share your data with third parties in the following cases:"
-msgstr "Ці треті сторони мають власні політики конфіденційності, і ми рекомендуємо вам ознайомитися з ними. Ми можемо передавати ваші дані третім особам у таких випадках:"
+msgid "We may share your data with third parties in the following cases:"
+msgstr "Ми можемо передавати ваші дані третім особам у наступних випадках:"
+
+#. js-lingui-explicit-id
+msgid "International Data Transfers"
+msgstr "Міжнародні передачі даних"
+
+#. js-lingui-explicit-id
+msgid "Your data may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place to protect your data in accordance with applicable data protection laws."
+msgstr "Ваші дані можуть бути передані та оброблені в країнах, відмінних від вашої. Ми забезпечуємо відповідні заходи захисту для захисту ваших даних відповідно до чинного законодавства про захист даних."
 
 #. js-lingui-explicit-id
 msgid "User Rights"
@@ -260,8 +286,28 @@ msgid "Delete your data: You can request the deletion of your information."
 msgstr "Видалення ваших даних: Ви можете запросити видалення вашої інформації."
 
 #. js-lingui-explicit-id
-msgid "Revoke permissions: You can modify app permissions via your device settings."
-msgstr "Відкликання дозволів: Ви можете змінити дозволи додатку через налаштування вашого пристрою."
+msgid "Revoke Telegram permissions: You can disconnect your Telegram account at any time."
+msgstr "Відкликати дозволи Telegram: Ви можете відключити свій обліковий запис Telegram у будь-який час."
+
+#. js-lingui-explicit-id
+msgid "Export your data: You can request a copy of your data in a portable format."
+msgstr "Експортувати ваші дані: Ви можете запросити копію своїх даних у переносному форматі."
+
+#. js-lingui-explicit-id
+msgid "Rectify your data: You can request correction of inaccurate personal data."
+msgstr "Виправити ваші дані: Ви можете запросити виправлення неточних особистих даних."
+
+#. js-lingui-explicit-id
+msgid "Restrict processing: You can request limitation of data processing under certain circumstances."
+msgstr "Обмежити обробку: Ви можете запросити обмеження обробки даних за певних обставин."
+
+#. js-lingui-explicit-id
+msgid "Data Retention"
+msgstr "Зберігання даних"
+
+#. js-lingui-explicit-id
+msgid "We retain your data only as long as necessary to provide our services. Data is automatically deleted when you delete your account or revoke Telegram permissions. Some data may be retained for legal or security purposes as required by law. We comply with applicable data protection laws including GDPR where applicable."
+msgstr "Ми зберігаємо ваші дані лише стільки, скільки необхідно для надання наших послуг. Дані автоматично видаляються, коли ви видаляєте свій обліковий запис або відкликаєте дозволи Telegram. Деякі дані можуть зберігатися для юридичних або безпекових цілей відповідно до вимог закону. Ми дотримуємося чинного законодавства про захист даних, включаючи GDPR, де це застосовно."
 
 #. js-lingui-explicit-id
 msgid "Changes to the Privacy Policy"
@@ -288,115 +334,122 @@ msgid "Terms of Use"
 msgstr "Умови використання"
 
 #. js-lingui-explicit-id
-msgid "April {numberMonth}, 2025"
-msgstr "Квітень {numberMonth}, 2025"
+msgid "\"{NAME_APP}\" mobile application and web service is developed by Vadym Bezsmertnyi, FOP (\"us\", \"we\", or \"our\"). By accessing or using our mobile application and web services (\"Service\"), you (the User) agree to abide by and be bound by these Terms of Use. Please read these terms carefully before using the service."
+msgstr "Мобільний додаток та веб-сервіс \"{NAME_APP}\" розроблено та експлуатується Вадимом Безсмертним, ФОП (\"ми\", \"нас\" або \"наш\"). Використовуючи наш мобільний додаток та веб-сервіси (\"Сервіс\"), ви (Користувач) погоджуєтеся дотримуватися цих Умов використання. Будь ласка, уважно прочитайте ці умови перед використанням сервісу."
 
 #. js-lingui-explicit-id
-msgid "\"{NAME_APP}\" mobile application is developed by Vadym Bezsmertnyi, FOP (\"us\", \"we\", or \"our\"). By accessing or using our mobile application (\"Service\"), you (the User) agree to abide by and be bound by these Terms of Use. Please read these terms carefully before using the app."
-msgstr "Мобільний додаток \"{NAME_APP}\" розроблений Вадимом Безсмертним, ФОП (\"ми\", \"нас\" або \"наш\"). Використовуючи наш мобільний додаток (\"Сервіс\"), ви (Користувач) погоджуєтеся дотримуватися та бути зв'язаними цими Умовами використання. Будь ласка, уважно прочитайте ці умови перед використанням додатку."
+msgid "1. Purpose of the Service"
+msgstr "1. Мета Сервісу"
 
 #. js-lingui-explicit-id
-msgid "1. Purpose of the Application"
-msgstr "1. Мета додатку"
-
-#. js-lingui-explicit-id
-msgid "{NAME_APP} is a mobile application created to help stylists, makeup artists, and other professionals manage their client appointments effectively. The app allows users to create detailed notes for each client meeting, synchronize schedules with their device’s calendar, send SMS reminders to clients, and receive notifications about upcoming appointments."
-msgstr "{NAME_APP} – це мобільний додаток, створений для допомоги стилістам, візажистам та іншим професіоналам ефективно керувати зустрічами з клієнтами. Додаток дозволяє користувачам створювати детальні нотатки для кожної зустрічі з клієнтом, синхронізувати розклади з календарем пристрою, надсилати SMS-нагадування клієнтам та отримувати сповіщення про майбутні зустрічі."
+msgid "{NAME_APP} is a Telegram bot management platform designed to help administrators and moderators manage Telegram groups and channels effectively. The service allows users to monitor group members, analyze group activity, manage message templates, send automated messages, and perform various administrative tasks through Telegram bot integration."
+msgstr "{NAME_APP} – це платформа управління Telegram-ботами, призначена для допомоги адміністраторам і модераторам у ефективному управлінні Telegram-групами та каналами. Сервіс дозволяє користувачам відстежувати учасників групи, аналізувати активність групи, керувати шаблонами повідомлень, надсилати автоматизовані повідомлення та виконувати різні адміністративні завдання через інтеграцію з Telegram-ботом."
 
 #. js-lingui-explicit-id
 msgid "2. Permissions and Usage Restrictions"
 msgstr "2. Дозволи та обмеження використання"
 
 #. js-lingui-explicit-id
-msgid "By using {NAME_APP}, you agree to utilize the app solely for its intended purposes. Any misuse of the app, such as reverse-engineering, unauthorized modifications, or illegal activities, is strictly prohibited. Users are also responsible for maintaining the confidentiality of their account credentials and ensuring that the app is used in compliance with local laws and regulations."
-msgstr "{NAME_APP} дозволяє використовувати додаток лише для його призначених цілей. Будь-яке зловживання додатком, таке як зворотне інженерування, несанкціоновані модифікації або незаконна діяльність, суворо заборонено. Користувачі також несуть відповідальність за збереження конфіденційності своїх облікових даних та забезпечення використання додатку відповідно до місцевих законів і нормативних актів."
+msgid "By using {NAME_APP}, you agree to utilize the service solely for its intended purposes. Any misuse of the service, such as reverse-engineering, unauthorized modifications, or illegal activities, is strictly prohibited. Users are responsible for ensuring that their use of the service complies with Telegram's Terms of Service and local laws and regulations. You may not use the service for spam, harassment, or any activities that violate Telegram's policies."
+msgstr "Використовуючи {NAME_APP}, ви погоджуєтеся використовувати сервіс виключно для його призначених цілей. Будь-яке зловживання сервісом, таке як зворотне інженерування, несанкціоновані модифікації або незаконна діяльність, суворо заборонено. Користувачі несуть відповідальність за забезпечення того, щоб їх використання сервісу відповідало Умовам обслуговування Telegram та місцевим законам і нормативним актам. Ви не можете використовувати сервіс для спаму, переслідування або будь-яких дій, які порушують політику Telegram."
 
 #. js-lingui-explicit-id
 msgid "3. Subscriptions and Payments"
 msgstr "3. Підписки та платежі"
 
 #. js-lingui-explicit-id
-msgid "{NAME_APP} offers a one-month free trial, after which a subscription is required to access premium features. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law."
-msgstr "{NAME_APP} пропонує безкоштовний пробний період на один місяць, після якого для доступу до преміум-функцій потрібна підписка. Платежі обробляються через Apple App Store або Google Play відповідно до їхніх політик. Підписки автоматично поновлюються, якщо не скасовані принаймні за 24 години до закінчення розрахункового періоду. Всі платежі не підлягають поверненню, якщо це не передбачено чинним законодавством."
+msgid "{NAME_APP} offers a free tier with basic features, and two premium subscription plans (Pro and Ultimate) for advanced functionality. All subscriptions are billed monthly. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law."
+msgstr "{NAME_APP} пропонує безкоштовний рівень з базовими функціями та два платних плани підписки (Pro та Ultimate) для розширеної функціональності. Всі підписки оплачуються щомісяця. Платежі обробляються через Apple App Store або Google Play відповідно до їхніх політик. Підписки автоматично поновлюються, якщо не скасовані принаймні за 24 години до закінчення періоду оплати. Всі платежі не підлягають поверненню, якщо це не передбачено чинним законодавством."
 
 #. js-lingui-explicit-id
 msgid "4. Subscription Information"
 msgstr "4. Інформація про підписку"
 
 #. js-lingui-explicit-id
-msgid "The following subscriptions are available for use in the app:"
-msgstr "У додатку доступні наступні підписки:"
+msgid "The following subscription plans are available:"
+msgstr "Доступні наступні плани підписки:"
 
 #. js-lingui-explicit-id
-msgid "- Annual"
-msgstr "- Річна"
-
-#. js-lingui-explicit-id
-msgid ""
-"- Subscription name: annual_29_88_12m\n"
-"- Duration: 1 year\n"
-"- Price: $29.88 per year"
-msgstr "- Назва підписки: annual_29_88_12m\n"
-
-#. js-lingui-explicit-id
-msgid "- Semi-Annual"
-msgstr "- Піврічна"
+msgid "- Free Plan"
+msgstr "- Безкоштовний план"
 
 #. js-lingui-explicit-id
 msgid ""
-"- Subscription name: semi_annual_17_94_6m\n"
-"- Duration: 6 months\n"
-"- Price: $17.94 per 6 months"
+"- Basic group management features\n"
+"- Limited filters\n"
+"- Community support"
 msgstr ""
-"- Назва підписки: semi_annual_17_94_6m\n"
-"- Тривалість: 6 місяців\n"
-"- Ціна: $17.94 за 6 місяців"
+"- Основні функції управління групами\n"
+"- Обмежені фільтри\n"
+"- Підтримка спільноти"
 
 #. js-lingui-explicit-id
-msgid "- Monthly"
-msgstr "- Щомісячна"
+msgid "- Pro Plan"
+msgstr "- Pro план"
 
 #. js-lingui-explicit-id
 msgid ""
-"- Subscription name: monthly_2_99_1m\n"
-"- Duration: 1 month\n"
-"- Price: $2.99 per month"
+"- Price: $4.99 per month\n"
+"- Manage up to 5 groups\n"
+"- Advanced filters\n"
+"- Analytics tab access\n"
+"- Bot templates customization"
 msgstr ""
-"- Назва підписки: monthly_2_99_1m\n"
-"- Тривалість: 1 місяць\n"
-"- Ціна: $2.99 на місяць"
+"- Ціна: $4.99 на місяць\n"
+"- Управління до 5 групами\n"
+"- Розширені фільтри\n"
+"- Доступ до вкладки аналітики\n"
+"- Налаштування шаблонів бота"
 
 #. js-lingui-explicit-id
-msgid "5. Notifications and Reminders"
-msgstr "5. Сповіщення та нагадування"
+msgid "- Ultimate Plan"
+msgstr "- Ultimate план"
 
 #. js-lingui-explicit-id
-msgid "The app sends notifications and reminders to inform users about upcoming appointments and related updates. By enabling push notifications, users consent to receiving these alerts. It is the user’s responsibility to ensure notifications are active on their device to avoid missing important reminders."
-msgstr "Додаток надсилає сповіщення та нагадування, щоб інформувати користувачів про майбутні зустрічі та пов'язані оновлення. Увімкнувши push-сповіщення, користувачі погоджуються отримувати ці сповіщення. Користувач несе відповідальність за забезпечення активності сповіщень на своєму пристрої, щоб не пропустити важливі нагадування."
+msgid ""
+"- Price: $9.99 per month\n"
+"- Unlimited groups\n"
+"- All analytics features\n"
+"- Priority support\n"
+"- Advanced bot automation"
+msgstr ""
+"- Ціна: $9.99 на місяць\n"
+"- Необмежені групи\n"
+"- Всі функції аналітики\n"
+"- Пріоритетна підтримка\n"
+"- Розширена автоматизація бота"
 
 #. js-lingui-explicit-id
-msgid "6. Responsibility for Data"
-msgstr "6. Відповідальність за дані"
+msgid "5. Telegram Integration"
+msgstr "5. Інтеграція з Telegram"
 
 #. js-lingui-explicit-id
-msgid "The app provides tools for managing and storing client data, but users are responsible for entering accurate information and maintaining backups of critical data when necessary. {NAME_APP} is not liable for any data loss due to user error, device failure, or unauthorized access."
-msgstr "{NAME_APP} надає інструменти для управління та зберігання даних клієнтів, але користувачі несуть відповідальність за введення точної інформації та підтримання резервних копій критично важливих даних за необхідності. {NAME_APP} не несе відповідальності за втрату даних через помилки користувача, збій пристрою або несанкціонований доступ."
+msgid "{NAME_APP} integrates with Telegram's API to provide group management functionality. Users must comply with Telegram's Terms of Service and API usage policies. The service requires appropriate Telegram bot permissions to function properly."
+msgstr "{NAME_APP} інтегрується з API Telegram для надання функціональності управління групами. Користувачі повинні дотримуватися Умов обслуговування Telegram та політик використання API. Сервіс вимагає відповідних дозволів бота Telegram для належного функціонування."
+
+#. js-lingui-explicit-id
+msgid "6. Data Management and Privacy"
+msgstr "6. Управління даними та конфіденційність"
+
+#. js-lingui-explicit-id
+msgid "The service processes Telegram group data for management purposes. Users are responsible for ensuring they have the necessary permissions to manage the groups they connect to the service. {NAME_APP} is not liable for any data loss or unauthorized access to Telegram groups. Users must comply with Telegram's Terms of Service and API usage policies."
+msgstr "{NAME_APP} обробляє дані Telegram-груп для цілей управління. Користувачі несуть відповідальність за забезпечення наявності необхідних дозволів для управління групами, які вони підключають до сервісу. {NAME_APP} не несе відповідальності за будь-які втрати даних або несанкціонований доступ до Telegram-груп. Користувачі повинні дотримуватися Умов обслуговування Telegram та політик використання API."
 
 #. js-lingui-explicit-id
 msgid "7. Changes to Terms"
 msgstr "7. Зміни до умов"
 
 #. js-lingui-explicit-id
-msgid "These Terms of Use may be updated periodically. Any changes will be published within the app, and the effective date will be revised accordingly. Continued use of the app after updates signifies acceptance of the new terms."
-msgstr "Ці Умови використання можуть періодично оновлюватися. Будь-які зміни будуть опубліковані в додатку, а дата набрання чинності буде відповідно переглянута. Продовження використання додатку після оновлень означає прийняття нових умов."
+msgid "These Terms of Use may be updated periodically. Any changes will be published within the service, and the effective date will be revised accordingly. Continued use of the service after updates signifies acceptance of the new terms."
+msgstr "Ці Умови використання можуть періодично оновлюватися. Будь-які зміни будуть опубліковані в межах сервісу, і дата набрання чинності буде відповідно переглянута. Продовження використання сервісу після оновлень означає прийняття нових умов."
 
 #. js-lingui-explicit-id
 msgid "8. Limitation of Liability"
 msgstr "8. Обмеження відповідальності"
 
 #. js-lingui-explicit-id
-msgid "{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the app. This includes issues caused by errors, interruptions, third-party integrations, or unauthorized access to data."
-msgstr "{NAME_APP} та його розробники не несуть відповідальності за будь-які збитки, що виникають внаслідок використання або неможливості використання додатку. Це включає проблеми, спричинені помилками, перервами, інтеграціями з третіми сторонами або несанкціонованим доступом до даних."
+msgid "{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the service. This includes issues caused by errors, interruptions, Telegram API limitations, or unauthorized access to data."
+msgstr "{NAME_APP} та його розробники не несуть відповідальності за будь-які збитки, що виникають внаслідок використання або неможливості використання сервісу. Це включає проблеми, спричинені помилками, перервами, обмеженнями API Telegram або несанкціонованим доступом до даних."
 
 #. js-lingui-explicit-id
 msgid "9. Support"
