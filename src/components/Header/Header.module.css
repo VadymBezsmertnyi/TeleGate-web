@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.containerLeft {
+  display: flex;
+  align-items: center;
+}
+.containerLogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.titleLogo {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.listMenu {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menuElement {
+  border-bottom: 2px solid black;
+  padding: 5px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+  background-color: transparent;
+}
+.menuElement:hover {
+  border-bottom-color: green;
+  color: green;
+}
+
+.containerLeft {
+}

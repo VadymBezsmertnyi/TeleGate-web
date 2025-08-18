@@ -1,0 +1,17 @@
+.container {
+  padding: 20px 40px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #002f34;
+}
+
+.subTitle {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: justify;
+}

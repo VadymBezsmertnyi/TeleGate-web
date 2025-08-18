@@ -1,0 +1,992 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-02-28 15:36+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+msgid "Beauty Sync"
+msgstr "Beauty Sync"
+
+#. js-lingui-explicit-id
+msgid "Smart Scheduling App for Beauty Experts"
+msgstr "Smart Scheduling App for Beauty Experts"
+
+#. js-lingui-explicit-id
+msgid "Beauty Sync helps beauty professionals manage appointments, clients, and reminders with ease."
+msgstr "Beauty Sync helps beauty professionals manage appointments, clients, and reminders with ease."
+
+#. js-lingui-explicit-id
+msgid "Download on App Store"
+msgstr "Download on App Store"
+
+#. js-lingui-explicit-id
+msgid "Get it on Google Play"
+msgstr "Get it on Google Play"
+
+#. js-lingui-explicit-id
+msgid "April {numberMonth}, 2025"
+msgstr "April {numberMonth}, 2025"
+
+#. js-lingui-explicit-id
+msgid "Back"
+msgstr "Back"
+
+#. js-lingui-explicit-id
+msgid "Logo"
+msgstr "Logo"
+
+#. js-lingui-explicit-id
+msgid "Home"
+msgstr "Home"
+
+#. js-lingui-explicit-id
+msgid "Term of use"
+msgstr "Term of use"
+
+#. js-lingui-explicit-id
+msgid "Privacy policy"
+msgstr "Privacy policy"
+
+#. js-lingui-explicit-id
+msgid "Total"
+msgstr "Total"
+
+#. js-lingui-explicit-id
+msgid "Used"
+msgstr "Used"
+
+#. js-lingui-explicit-id
+msgid "Remaining"
+msgstr "Remaining"
+
+#. js-lingui-explicit-id
+msgid "Select language"
+msgstr "Select language"
+
+#. js-lingui-explicit-id
+msgid "Map is not available"
+msgstr "Map is not available"
+
+#. js-lingui-explicit-id
+msgid "Please contact the administrator"
+msgstr "Please contact the administrator"
+
+#. js-lingui-explicit-id
+msgid "Close"
+msgstr "Close"
+
+#. js-lingui-explicit-id
+msgid "Selected place"
+msgstr "Selected place"
+
+#. js-lingui-explicit-id
+msgid "Change place"
+msgstr "Change place"
+
+#. js-lingui-explicit-id
+msgid "City"
+msgstr "City"
+
+#. js-lingui-explicit-id
+msgid "Result search"
+msgstr "Result search"
+
+#. js-lingui-explicit-id
+msgid "If there is no suitable option in the list, use 'Deep Search'"
+msgstr "If there is no suitable option in the list, use 'Deep Search'"
+
+#. js-lingui-explicit-id
+msgid "Disable Deep Search"
+msgstr "Disable Deep Search"
+
+#. js-lingui-explicit-id
+msgid "Enable Deep Search"
+msgstr "Enable Deep Search"
+
+#. js-lingui-explicit-id
+msgid "Street"
+msgstr "Street"
+
+#. js-lingui-explicit-id
+msgid "Please specify the coordinates on the map"
+msgstr "Please specify the coordinates on the map"
+
+#. js-lingui-explicit-id
+msgid "Latitude"
+msgstr "Latitude"
+
+#. js-lingui-explicit-id
+msgid "Longitude"
+msgstr "Longitude"
+
+#. js-lingui-explicit-id
+msgid "Submit"
+msgstr "Submit"
+
+#. js-lingui-explicit-id
+msgid "Moto"
+msgstr "Moto"
+
+#. js-lingui-explicit-id
+msgid "Auto"
+msgstr "Auto"
+
+#. js-lingui-explicit-id
+msgid "Save"
+msgstr "Save"
+
+#. js-lingui-explicit-id
+msgid "Select type workshop"
+msgstr "Select type workshop"
+
+#. js-lingui-explicit-id
+msgid "Sign in"
+msgstr "Sign in"
+
+#. js-lingui-explicit-id
+msgid "You can sign in using:"
+msgstr "You can sign in using:"
+
+#. js-lingui-explicit-id
+msgid "Profile"
+msgstr "Profile"
+
+#. js-lingui-explicit-id
+msgid "Sign out"
+msgstr "Sign out"
+
+#. js-lingui-explicit-id
+msgid "Workshops"
+msgstr "Workshops"
+
+#. js-lingui-explicit-id
+msgid "Events"
+msgstr "Events"
+
+#. js-lingui-explicit-id
+msgid "Products"
+msgstr "Products"
+
+#. js-lingui-explicit-id
+msgid "Name of the {otherName}"
+msgstr "Name of the {otherName}"
+
+#. js-lingui-explicit-id
+msgid "The text must contain a minimum of {min} and a maximum of {max} characters."
+msgstr "The text must contain a minimum of {min} and a maximum of {max} characters."
+
+#. js-lingui-explicit-id
+msgid "The place of the {otherName}"
+msgstr "The place of the {otherName}"
+
+#. js-lingui-explicit-id
+msgid "The location of the {otherName} must be selected."
+msgstr "The location of the {otherName} must be selected."
+
+#. js-lingui-explicit-id
+msgid "Date of the {otherName}"
+msgstr "Date of the {otherName}"
+
+#. js-lingui-explicit-id
+msgid "The end date must be greater than the start date."
+msgstr "The end date must be greater than the start date."
+
+#. js-lingui-explicit-id
+msgid "Tell us about the {otherName}"
+msgstr "Tell us about the {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Description of the {otherName}"
+msgstr "Description of the {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Phone number the {otherName}"
+msgstr "Phone number the {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Please enter phone number"
+msgstr "Please enter phone number"
+
+#. js-lingui-explicit-id
+msgid "Types of {otherName} jobs"
+msgstr "Types of {otherName} jobs"
+
+#. js-lingui-explicit-id
+msgid "Please select at least one type"
+msgstr "Please select at least one type"
+
+#. js-lingui-explicit-id
+msgid "Price {otherName}"
+msgstr "Price {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Please enter price for {otherName}"
+msgstr "Please enter price for {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Category {otherName}"
+msgstr "Category {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Please enter category for {otherName}"
+msgstr "Please enter category for {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Brand {otherName}"
+msgstr "Brand {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Please enter brand for {otherName}"
+msgstr "Please enter brand for {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Mileage {otherName}"
+msgstr "Mileage {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Please enter mileage for {otherName}"
+msgstr "Please enter mileage for {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Year release {otherName}"
+msgstr "Year release {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Please enter year minimum of {min} and a maximum of {max} for {otherName}"
+msgstr "Please enter year minimum of {min} and a maximum of {max} for {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Type fuel {otherName}"
+msgstr "Type fuel {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Please enter type fuel for {otherName}"
+msgstr "Please enter type fuel for {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Type transmission {otherName}"
+msgstr "Type transmission {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Please enter type transmission for {otherName}"
+msgstr "Please enter type transmission for {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Type parts {otherName}"
+msgstr "Type parts {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Please enter type parts for {otherName}"
+msgstr "Please enter type parts for {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Incorrectly entered data"
+msgstr "Incorrectly entered data"
+
+#. js-lingui-explicit-id
+msgid "Images {otherName}"
+msgstr "Images {otherName}"
+
+#. js-lingui-explicit-id
+msgid "Please add images for {otherName}"
+msgstr "Please add images for {otherName}"
+
+#. js-lingui-explicit-id
+msgid "advert"
+msgstr "advert"
+
+#. js-lingui-explicit-id
+msgid "Maintenance"
+msgstr "Maintenance"
+
+#. js-lingui-explicit-id
+msgid "Oil change / Filter replacement / Timing belt replacement / Spark plug replacement / Transmission oil change / Brake service / Replacement of all necessary fluids / Etc."
+msgstr "Oil change / Filter replacement / Timing belt replacement / Spark plug replacement / Transmission oil change / Brake service / Replacement of all necessary fluids / Etc."
+
+#. js-lingui-explicit-id
+msgid "Diagnostics"
+msgstr "Diagnostics"
+
+#. js-lingui-explicit-id
+msgid "Pre-purchase comprehensive diagnostics / Chassis diagnostics / Engine diagnostics / Transmission diagnostics / Body diagnostics / Computer diagnostics / Fluid diagnostics / Etc."
+msgstr "Pre-purchase comprehensive diagnostics / Chassis diagnostics / Engine diagnostics / Transmission diagnostics / Body diagnostics / Computer diagnostics / Fluid diagnostics / Etc."
+
+#. js-lingui-explicit-id
+msgid "Auto Electrical"
+msgstr "Auto Electrical"
+
+#. js-lingui-explicit-id
+msgid "Wiring repair / Chip tuning / Installation of any complexity alarm / Odometer correction / Key reprogramming / Engine and transmission adaptation / EGR removal / DPF removal / Xenon installation / Parking sensors installation / Etc."
+msgstr "Wiring repair / Chip tuning / Installation of any complexity alarm / Odometer correction / Key reprogramming / Engine and transmission adaptation / EGR removal / DPF removal / Xenon installation / Parking sensors installation / Etc."
+
+#. js-lingui-explicit-id
+msgid "Chassis Repair"
+msgstr "Chassis Repair"
+
+#. js-lingui-explicit-id
+msgid "Shock absorber strut replacement / Spring replacement / Control arm replacement / Beam replacement / Silent block pressing / Leaf spring replacement / Hub replacement / Saw blade replacement / Axle replacement / Ball joint replacement / Engine and transmission mount replacement / Mechanical work"
+msgstr "Shock absorber strut replacement / Spring replacement / Control arm replacement / Beam replacement / Silent block pressing / Leaf spring replacement / Hub replacement / Saw blade replacement / Axle replacement / Ball joint replacement / Engine and transmission mount replacement / Mechanical work"
+
+#. js-lingui-explicit-id
+msgid "Engine, Automatic, and Manual Transmission"
+msgstr "Engine, Automatic, and Manual Transmission"
+
+#. js-lingui-explicit-id
+msgid "Engine diagnostics / Engine repair / Engine replacement / Engine oil pan replacement / Automatic transmission diagnostics / Automatic transmission oil change / Automatic transmission replacement / Automatic transmission cleaning-flushing / Clutch replacement / Manual transmission diagnostics / Manual transmission oil change / Manual transmission replacement / Manual transmission cleaning-flushing / Etc."
+msgstr "Engine diagnostics / Engine repair / Engine replacement / Engine oil pan replacement / Automatic transmission diagnostics / Automatic transmission oil change / Automatic transmission replacement / Automatic transmission cleaning-flushing / Clutch replacement / Manual transmission diagnostics / Manual transmission oil change / Manual transmission replacement / Manual transmission cleaning-flushing / Etc."
+
+#. js-lingui-explicit-id
+msgid "Brakes and Steering System"
+msgstr "Brakes and Steering System"
+
+#. js-lingui-explicit-id
+msgid "Brake system diagnostics / Brake fluid replacement / Brake system repair / Brake bleeding / Steering rack replacement / Steering rack restoration / Power steering replacement / Power steering fluid replacement / Etc."
+msgstr "Brake system diagnostics / Brake fluid replacement / Brake system repair / Brake bleeding / Steering rack replacement / Steering rack restoration / Power steering replacement / Power steering fluid replacement / Etc."
+
+#. js-lingui-explicit-id
+msgid "Accessory Equipment"
+msgstr "Accessory Equipment"
+
+#. js-lingui-explicit-id
+msgid "Starter repair / Starter replacement / Generator repair / Generator replacement / Turbocharger restoration / Turbocharger replacement / Etc."
+msgstr "Starter repair / Starter replacement / Generator repair / Generator replacement / Turbocharger restoration / Turbocharger replacement / Etc."
+
+#. js-lingui-explicit-id
+msgid "Air Conditioning Systems"
+msgstr "Air Conditioning Systems"
+
+#. js-lingui-explicit-id
+msgid "Diagnostics / Charging / Recharging / Leak detection / Pipe replacement / Radiator replacement / Compressor repair / Compressor replacement / System disinfection / Elimination of foreign odors"
+msgstr "Diagnostics / Charging / Recharging / Leak detection / Pipe replacement / Radiator replacement / Compressor repair / Compressor replacement / System disinfection / Elimination of foreign odors"
+
+#. js-lingui-explicit-id
+msgid "Wheel Alignment"
+msgstr "Wheel Alignment"
+
+#. js-lingui-explicit-id
+msgid "Wheel alignment / Alignment diagnostics / Suspension defect search / Body defect search"
+msgstr "Wheel alignment / Alignment diagnostics / Suspension defect search / Body defect search"
+
+#. js-lingui-explicit-id
+msgid "Technical maintenance"
+msgstr "Technical maintenance"
+
+#. js-lingui-explicit-id
+msgid "Cable lubrication / Carburetor synchronization / Air filter replacement / Spark plug replacement / Transmission oil change / Differential oil change / Coolant replacement / Engine oil change"
+msgstr "Cable lubrication / Carburetor synchronization / Air filter replacement / Spark plug replacement / Transmission oil change / Differential oil change / Coolant replacement / Engine oil change"
+
+#. js-lingui-explicit-id
+msgid "General works"
+msgstr "General works"
+
+#. js-lingui-explicit-id
+msgid "General diagnostics / Compression measurement / Technical fluid level check / Clutch cable replacement / Throttle cable replacement / Fuel tank cleaning and flushing / Fuel tank removal and installation / Plastic removal and installation / Safety arch, slider installation"
+msgstr "General diagnostics / Compression measurement / Technical fluid level check / Clutch cable replacement / Throttle cable replacement / Fuel tank cleaning and flushing / Fuel tank removal and installation / Plastic removal and installation / Safety arch, slider installation"
+
+#. js-lingui-explicit-id
+msgid "Chassis"
+msgstr "Chassis"
+
+#. js-lingui-explicit-id
+msgid "Front wheel removal and installation / Rear wheel removal and installation / Wheel bearing replacement / Steering column bearing adjustment / Steering column bearing replacement / Front fork removal and installation / Front fork seal replacement / Front fork oil change / Rear swingarm bearing replacement / Rear shock absorber replacement / Monoshock absorber replacement / Rear shock absorber repair"
+msgstr "Front wheel removal and installation / Rear wheel removal and installation / Wheel bearing replacement / Steering column bearing adjustment / Steering column bearing replacement / Front fork removal and installation / Front fork seal replacement / Front fork oil change / Rear swingarm bearing replacement / Rear shock absorber replacement / Monoshock absorber replacement / Rear shock absorber repair"
+
+#. js-lingui-explicit-id
+msgid "Drive chain"
+msgstr "Drive chain"
+
+#. js-lingui-explicit-id
+msgid "Drive chain and sprocket replacement / Chain cleaning, lubrication, and adjustment / Chain adjustment, tensioning, and lubrication"
+msgstr "Drive chain and sprocket replacement / Chain cleaning, lubrication, and adjustment / Chain adjustment, tensioning, and lubrication"
+
+#. js-lingui-explicit-id
+msgid "Engine"
+msgstr "Engine"
+
+#. js-lingui-explicit-id
+msgid "Removal and installation / Valve adjustment / Clutch replacement / Cylinder head repair / Timing chain replacement / Piston group repair / Gearbox repair / Engine overhaul"
+msgstr "Removal and installation / Valve adjustment / Clutch replacement / Cylinder head repair / Timing chain replacement / Piston group repair / Gearbox repair / Engine overhaul"
+
+#. js-lingui-explicit-id
+msgid "Electrics"
+msgstr "Electrics"
+
+#. js-lingui-explicit-id
+msgid "Regulator relay replacement / Alternator replacement / Starter replacement / Starter repair / Bulb replacement / Xenon installation / Battery replacement / Battery charging"
+msgstr "Regulator relay replacement / Alternator replacement / Starter replacement / Starter repair / Bulb replacement / Xenon installation / Battery replacement / Battery charging"
+
+#. js-lingui-explicit-id
+msgid "Brake system"
+msgstr "Brake system"
+
+#. js-lingui-explicit-id
+msgid "Disk brake pad replacement / Drum brake pad replacement / Brake bleeding / Brake fluid replacement / Combined brake fluid replacement / Brake hose replacement / Reinforced hose installation / Brake disk replacement / Brake caliper repair"
+msgstr "Disk brake pad replacement / Drum brake pad replacement / Brake bleeding / Brake fluid replacement / Combined brake fluid replacement / Brake hose replacement / Reinforced hose installation / Brake disk replacement / Brake caliper repair"
+
+#. js-lingui-explicit-id
+msgid "Plastic repair"
+msgstr "Plastic repair"
+
+#. js-lingui-explicit-id
+msgid "Welding/restoration of fragments/restoration of fasteners"
+msgstr "Welding/restoration of fragments/restoration of fasteners"
+
+#. js-lingui-explicit-id
+msgid "Welding works"
+msgstr "Welding works"
+
+#. js-lingui-explicit-id
+msgid "Electric arc welding / Semi-automatic welding / Argon arc welding"
+msgstr "Electric arc welding / Semi-automatic welding / Argon arc welding"
+
+#. js-lingui-explicit-id
+msgid "Tuning and customization"
+msgstr "Tuning and customization"
+
+#. js-lingui-explicit-id
+msgid "Protective arch installation / Slider installation / Exhaust system installation / Brake system installation / Reinforced hose installation / Xenon installation / Motorcycle lighting installation / Fog light installation (FL)"
+msgstr "Protective arch installation / Slider installation / Exhaust system installation / Brake system installation / Reinforced hose installation / Xenon installation / Motorcycle lighting installation / Fog light installation (FL)"
+
+#. js-lingui-explicit-id
+msgid "About {NAME_APP}"
+msgstr "About {NAME_APP}"
+
+#. js-lingui-explicit-id
+msgid "Welcome to {NAME_APP} – your mobile companion for stylists, makeup artists, and other professionals! This app is designed to help you efficiently manage client meetings, take notes, and sync your schedule with your phone's calendar."
+msgstr "Welcome to {NAME_APP} – your mobile companion for stylists, makeup artists, and other professionals! This app is designed to help you efficiently manage client meetings, take notes, and sync your schedule with your phone's calendar."
+
+#. js-lingui-explicit-id
+msgid "Key features of the app:"
+msgstr "Key features of the app:"
+
+#. js-lingui-explicit-id
+msgid "Clients and Notes: Easily create and store client profiles, take notes for each meeting."
+msgstr "Clients and Notes: Easily create and store client profiles, take notes for each meeting."
+
+#. js-lingui-explicit-id
+msgid "Calendar Sync: Your meetings automatically sync with your device's calendar."
+msgstr "Calendar Sync: Your meetings automatically sync with your device's calendar."
+
+#. js-lingui-explicit-id
+msgid "Reminders: Receive notifications for upcoming meetings and send SMS reminders to clients."
+msgstr "Reminders: Receive notifications for upcoming meetings and send SMS reminders to clients."
+
+#. js-lingui-explicit-id
+msgid "Ease of Use: Intuitive interface for quick access to your data."
+msgstr "Ease of Use: Intuitive interface for quick access to your data."
+
+#. js-lingui-explicit-id
+msgid "Subscriptions: Access additional features with a subscription, including a free trial period."
+msgstr "Subscriptions: Access additional features with a subscription, including a free trial period."
+
+#. js-lingui-explicit-id
+msgid "We are always striving to improve our app to make it even more useful for you. Therefore, we appreciate your feedback and suggestions for enhancement. Together, we can take {NAME_APP} to the next level!"
+msgstr "We are always striving to improve our app to make it even more useful for you. Therefore, we appreciate your feedback and suggestions for enhancement. Together, we can take {NAME_APP} to the next level!"
+
+#. js-lingui-explicit-id
+msgid "Thank you for choosing {NAME_APP}!"
+msgstr "Thank you for choosing {NAME_APP}!"
+
+#. js-lingui-explicit-id
+msgid "How to delete personal data?"
+msgstr "How to delete personal data?"
+
+#. js-lingui-explicit-id
+msgid "If you wish to have your personal data deleted from the {NAME_APP} mobile application and website, you need to access the application, proceed to your profile, then go to the profile settings. At the top left corner, you will find the \"Delete\" button. After pressing it, your account will be deleted along with all your publications. Then, you will be redirected to the \"Welcome\" page where you can register again."
+msgstr "If you wish to have your personal data deleted from the {NAME_APP} mobile application and website, you need to access the application, proceed to your profile, then go to the profile settings. At the top left corner, you will find the \"Delete\" button. After pressing it, your account will be deleted along with all your publications. Then, you will be redirected to the \"Welcome\" page where you can register again."
+
+#. js-lingui-explicit-id
+msgid "All user data is being deleted. The following data will be erased:"
+msgstr "All user data is being deleted. The following data will be erased:"
+
+#. js-lingui-explicit-id
+msgid "Google authorization (email, first name, last name, etc.)"
+msgstr "Google authorization (email, first name, last name, etc.)"
+
+#. js-lingui-explicit-id
+msgid "Meta (Facebook) authorization (email, first name, last name, etc.)"
+msgstr "Meta (Facebook) authorization (email, first name, last name, etc.)"
+
+#. js-lingui-explicit-id
+msgid "Apple authorization (email, first name, last name, etc.)"
+msgstr "Apple authorization (email, first name, last name, etc.)"
+
+#. js-lingui-explicit-id
+msgid "All user posts, announcements, workshops, etc"
+msgstr "All user posts, announcements, workshops, etc"
+
+#. js-lingui-explicit-id
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#. js-lingui-explicit-id
+msgid "Last updated:"
+msgstr "Last updated:"
+
+#. js-lingui-explicit-id
+msgid "December 7, 2024"
+msgstr "December 7, 2024"
+
+#. js-lingui-explicit-id
+msgid "The \"{NAME_APP}\" mobile and web applications are developed and operated by Vadym Bezsmertnyi, FOP (\"us\", \"we\", or \"our\"). This Privacy Policy explains how we collect, use, and protect your personal information when you access and use our mobile application and services (\"Service\")."
+msgstr "The \"{NAME_APP}\" mobile and web applications are developed and operated by Vadym Bezsmertnyi, FOP (\"us\", \"we\", or \"our\"). This Privacy Policy explains how we collect, use, and protect your personal information when you access and use our mobile application and services (\"Service\")."
+
+#. js-lingui-explicit-id
+msgid "Information We Collect"
+msgstr "Information We Collect"
+
+#. js-lingui-explicit-id
+msgid "Information Collection"
+msgstr "Information Collection"
+
+#. js-lingui-explicit-id
+msgid "We collect information to ensure the effective functionality of the {NAME_APP} app. The data collected may include:"
+msgstr "We collect information to ensure the effective functionality of the {NAME_APP} app. The data collected may include:"
+
+#. js-lingui-explicit-id
+msgid "Contacts: to create client records."
+msgstr "Contacts: to create client records."
+
+#. js-lingui-explicit-id
+msgid "Calendar data: to synchronize appointments and reminders."
+msgstr "Calendar data: to synchronize appointments and reminders."
+
+#. js-lingui-explicit-id
+msgid "Camera and photo library: to upload client or work photos."
+msgstr "Camera and photo library: to upload client or work photos."
+
+#. js-lingui-explicit-id
+msgid "Push notifications: to remind users about upcoming appointments."
+msgstr "Push notifications: to remind users about upcoming appointments."
+
+#. js-lingui-explicit-id
+msgid "Personal user information: such as name, email address, and phone number."
+msgstr "Personal user information: such as name, email address, and phone number."
+
+#. js-lingui-explicit-id
+msgid "Subscription information: for managing your account and processing payments."
+msgstr "Subscription information: for managing your account and processing payments."
+
+#. js-lingui-explicit-id
+msgid "Use of Information"
+msgstr "Use of Information"
+
+#. js-lingui-explicit-id
+msgid "We do not use your information for unrelated purposes without your consent. The collected data is used to:"
+msgstr "We do not use your information for unrelated purposes without your consent. The collected data is used to:"
+
+#. js-lingui-explicit-id
+msgid "Create client records and appointments."
+msgstr "Create client records and appointments."
+
+#. js-lingui-explicit-id
+msgid "Send SMS reminders to clients."
+msgstr "Send SMS reminders to clients."
+
+#. js-lingui-explicit-id
+msgid "Synchronize the calendar for appointment reminders."
+msgstr "Synchronize the calendar for appointment reminders."
+
+#. js-lingui-explicit-id
+msgid "Enable app features such as uploading photos and creating notes."
+msgstr "Enable app features such as uploading photos and creating notes."
+
+#. js-lingui-explicit-id
+msgid "Manage subscriptions and process billing."
+msgstr "Manage subscriptions and process billing."
+
+#. js-lingui-explicit-id
+msgid "Access to Permissions"
+msgstr "Access to Permissions"
+
+#. js-lingui-explicit-id
+msgid "Permissions are requested only for functions directly related to the app’s operation. The {NAME_APP} app requires access to the following device features:"
+msgstr "Permissions are requested only for functions directly related to the app’s operation. The {NAME_APP} app requires access to the following device features:"
+
+#. js-lingui-explicit-id
+msgid "Contacts: to add clients to the app."
+msgstr "Contacts: to add clients to the app."
+
+#. js-lingui-explicit-id
+msgid "Calendar: to sync events."
+msgstr "Calendar: to sync events."
+
+#. js-lingui-explicit-id
+msgid "Camera and photo library: to upload images."
+msgstr "Camera and photo library: to upload images."
+
+#. js-lingui-explicit-id
+msgid "Push notifications: to send reminders."
+msgstr "Push notifications: to send reminders."
+
+#. js-lingui-explicit-id
+msgid "Data Security"
+msgstr "Data Security"
+
+#. js-lingui-explicit-id
+msgid "Your data is accessible only to you and is not shared without your consent. We use modern technologies to protect your data:"
+msgstr "Your data is accessible only to you and is not shared without your consent. We use modern technologies to protect your data:"
+
+#. js-lingui-explicit-id
+msgid "Sharing Information with Third Parties"
+msgstr "Sharing Information with Third Parties"
+
+#. js-lingui-explicit-id
+msgid "These third parties have their own privacy policies, and we encourage you to review them. We may share your data with third parties in the following cases:"
+msgstr "These third parties have their own privacy policies, and we encourage you to review them. We may share your data with third parties in the following cases:"
+
+#. js-lingui-explicit-id
+msgid "User Rights"
+msgstr "User Rights"
+
+#. js-lingui-explicit-id
+msgid "To exercise your rights, contact us at {CONTACT_EMAIL}. You have the following rights:"
+msgstr "To exercise your rights, contact us at {CONTACT_EMAIL}. You have the following rights:"
+
+#. js-lingui-explicit-id
+msgid "Access your data: You can review the data we store about you."
+msgstr "Access your data: You can review the data we store about you."
+
+#. js-lingui-explicit-id
+msgid "Delete your data: You can request the deletion of your information."
+msgstr "Delete your data: You can request the deletion of your information."
+
+#. js-lingui-explicit-id
+msgid "Revoke permissions: You can modify app permissions via your device settings."
+msgstr "Revoke permissions: You can modify app permissions via your device settings."
+
+#. js-lingui-explicit-id
+msgid "Changes to the Privacy Policy"
+msgstr "Changes to the Privacy Policy"
+
+#. js-lingui-explicit-id
+msgid ""
+"We may update this Privacy Policy periodically. All updates will be published on this page with the updated date.\n"
+"We recommend checking this section regularly to stay informed of any changes. For significant updates, we will notify you via the app or email."
+msgstr ""
+"We may update this Privacy Policy periodically. All updates will be published on this page with the updated date.\n"
+"We recommend checking this section regularly to stay informed of any changes. For significant updates, we will notify you via the app or email."
+
+#. js-lingui-explicit-id
+msgid "Contact Information"
+msgstr "Contact Information"
+
+#. js-lingui-explicit-id
+msgid "If you have questions about this Privacy Policy, contact us at {CONTACT_EMAIL}."
+msgstr "If you have questions about this Privacy Policy, contact us at {CONTACT_EMAIL}."
+
+#. js-lingui-explicit-id
+msgid "No avatar"
+msgstr "No avatar"
+
+#. js-lingui-explicit-id
+msgid "First name"
+msgstr "First name"
+
+#. js-lingui-explicit-id
+msgid "No first name"
+msgstr "No first name"
+
+#. js-lingui-explicit-id
+msgid "Last name"
+msgstr "Last name"
+
+#. js-lingui-explicit-id
+msgid "No last name"
+msgstr "No last name"
+
+#. js-lingui-explicit-id
+msgid "Phone number"
+msgstr "Phone number"
+
+#. js-lingui-explicit-id
+msgid "No phone number"
+msgstr "No phone number"
+
+#. js-lingui-explicit-id
+msgid "Email"
+msgstr "Email"
+
+#. js-lingui-explicit-id
+msgid "Country"
+msgstr "Country"
+
+#. js-lingui-explicit-id
+msgid "Region"
+msgstr "Region"
+
+#. js-lingui-explicit-id
+msgid "Place"
+msgstr "Place"
+
+#. js-lingui-explicit-id
+msgid "Language"
+msgstr "Language"
+
+#. js-lingui-explicit-id
+msgid "Business name"
+msgstr "Business name"
+
+#. js-lingui-explicit-id
+msgid "No business name"
+msgstr "No business name"
+
+#. js-lingui-explicit-id
+msgid "Events used"
+msgstr "Events used"
+
+#. js-lingui-explicit-id
+msgid "Events available"
+msgstr "Events available"
+
+#. js-lingui-explicit-id
+msgid "Workshops used"
+msgstr "Workshops used"
+
+#. js-lingui-explicit-id
+msgid "Workshops available"
+msgstr "Workshops available"
+
+#. js-lingui-explicit-id
+msgid "Products used"
+msgstr "Products used"
+
+#. js-lingui-explicit-id
+msgid "Products available"
+msgstr "Products available"
+
+#. js-lingui-explicit-id
+msgid "Upload"
+msgstr "Upload"
+
+#. js-lingui-explicit-id
+msgid "Show more"
+msgstr "Show more"
+
+#. js-lingui-explicit-id
+msgid "Create workshop"
+msgstr "Create workshop"
+
+#. js-lingui-explicit-id
+msgid "workshop"
+msgstr "workshop"
+
+#. js-lingui-explicit-id
+msgid "All types of workshops"
+msgstr "All types of workshops"
+
+#. js-lingui-explicit-id
+msgid "Moto workshop"
+msgstr "Moto workshop"
+
+#. js-lingui-explicit-id
+msgid "Auto workshop"
+msgstr "Auto workshop"
+
+#. js-lingui-explicit-id
+msgid "Name workshop"
+msgstr "Name workshop"
+
+#. js-lingui-explicit-id
+msgid "Place workshop"
+msgstr "Place workshop"
+
+#. js-lingui-explicit-id
+msgid "Not selected place"
+msgstr "Not selected place"
+
+#. js-lingui-explicit-id
+msgid "Change place workshop"
+msgstr "Change place workshop"
+
+#. js-lingui-explicit-id
+msgid "Select place workshop"
+msgstr "Select place workshop"
+
+#. js-lingui-explicit-id
+msgid "Description workshop"
+msgstr "Description workshop"
+
+#. js-lingui-explicit-id
+msgid "Selected type workshop"
+msgstr "Selected type workshop"
+
+#. js-lingui-explicit-id
+msgid "Change type workshop"
+msgstr "Change type workshop"
+
+#. js-lingui-explicit-id
+msgid "Selected type moto services"
+msgstr "Selected type moto services"
+
+#. js-lingui-explicit-id
+msgid "Selected type auto services"
+msgstr "Selected type auto services"
+
+#. js-lingui-explicit-id
+msgid "Change type services"
+msgstr "Change type services"
+
+#. js-lingui-explicit-id
+msgid "Select type services"
+msgstr "Select type services"
+
+#. js-lingui-explicit-id
+msgid "Add photo"
+msgstr "Add photo"
+
+#. js-lingui-explicit-id
+msgid "Loading..."
+msgstr "Loading..."
+
+#. js-lingui-explicit-id
+msgid "Terms of Use"
+msgstr "Terms of Use"
+
+#. js-lingui-explicit-id
+msgid "\"{NAME_APP}\" mobile application is developed by Vadym Bezsmertnyi, FOP (\"us\", \"we\", or \"our\"). By accessing or using our mobile application (\"Service\"), you (the User) agree to abide by and be bound by these Terms of Use. Please read these terms carefully before using the app."
+msgstr "\"{NAME_APP}\" mobile application is developed by Vadym Bezsmertnyi, FOP (\"us\", \"we\", or \"our\"). By accessing or using our mobile application (\"Service\"), you (the User) agree to abide by and be bound by these Terms of Use. Please read these terms carefully before using the app."
+
+#. js-lingui-explicit-id
+msgid "1. Purpose of the Application"
+msgstr "1. Purpose of the Application"
+
+#. js-lingui-explicit-id
+msgid "{NAME_APP} is a mobile application created to help stylists, makeup artists, and other professionals manage their client appointments effectively. The app allows users to create detailed notes for each client meeting, synchronize schedules with their device’s calendar, send SMS reminders to clients, and receive notifications about upcoming appointments."
+msgstr "{NAME_APP} is a mobile application created to help stylists, makeup artists, and other professionals manage their client appointments effectively. The app allows users to create detailed notes for each client meeting, synchronize schedules with their device’s calendar, send SMS reminders to clients, and receive notifications about upcoming appointments."
+
+#. js-lingui-explicit-id
+msgid "2. Permissions and Usage Restrictions"
+msgstr "2. Permissions and Usage Restrictions"
+
+#. js-lingui-explicit-id
+msgid "By using {NAME_APP}, you agree to utilize the app solely for its intended purposes. Any misuse of the app, such as reverse-engineering, unauthorized modifications, or illegal activities, is strictly prohibited. Users are also responsible for maintaining the confidentiality of their account credentials and ensuring that the app is used in compliance with local laws and regulations."
+msgstr "By using {NAME_APP}, you agree to utilize the app solely for its intended purposes. Any misuse of the app, such as reverse-engineering, unauthorized modifications, or illegal activities, is strictly prohibited. Users are also responsible for maintaining the confidentiality of their account credentials and ensuring that the app is used in compliance with local laws and regulations."
+
+#. js-lingui-explicit-id
+msgid "3. Subscriptions and Payments"
+msgstr "3. Subscriptions and Payments"
+
+#. js-lingui-explicit-id
+msgid "{NAME_APP} offers a one-month free trial, after which a subscription is required to access premium features. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law."
+msgstr "{NAME_APP} offers a one-month free trial, after which a subscription is required to access premium features. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law."
+
+#. js-lingui-explicit-id
+msgid "4. Subscription Information"
+msgstr "4. Subscription Information"
+
+#. js-lingui-explicit-id
+msgid "The following subscriptions are available for use in the app:"
+msgstr "The following subscriptions are available for use in the app:"
+
+#. js-lingui-explicit-id
+msgid "- Annual"
+msgstr "- Annual"
+
+#. js-lingui-explicit-id
+msgid ""
+"- Subscription name: annual_29_88_12m\n"
+"- Duration: 1 year\n"
+"- Price: $29.88 per year"
+msgstr ""
+"- Subscription name: annual_29_88_12m\n"
+"- Duration: 1 year\n"
+"- Price: $29.88 per year"
+
+#. js-lingui-explicit-id
+msgid "- Semi-Annual"
+msgstr "- Semi-Annual"
+
+#. js-lingui-explicit-id
+msgid ""
+"- Subscription name: semi_annual_17_94_6m\n"
+"- Duration: 6 months\n"
+"- Price: $17.94 per 6 months"
+msgstr ""
+"- Subscription name: semi_annual_17_94_6m\n"
+"- Duration: 6 months\n"
+"- Price: $17.94 per 6 months"
+
+#. js-lingui-explicit-id
+msgid "- Monthly"
+msgstr "- Monthly"
+
+#. js-lingui-explicit-id
+msgid ""
+"- Subscription name: monthly_2_99_1m\n"
+"- Duration: 1 month\n"
+"- Price: $2.99 per month"
+msgstr ""
+"- Subscription name: monthly_2_99_1m\n"
+"- Duration: 1 month\n"
+"- Price: $2.99 per month"
+
+#. js-lingui-explicit-id
+msgid "5. Notifications and Reminders"
+msgstr "5. Notifications and Reminders"
+
+#. js-lingui-explicit-id
+msgid "The app sends notifications and reminders to inform users about upcoming appointments and related updates. By enabling push notifications, users consent to receiving these alerts. It is the user’s responsibility to ensure notifications are active on their device to avoid missing important reminders."
+msgstr "The app sends notifications and reminders to inform users about upcoming appointments and related updates. By enabling push notifications, users consent to receiving these alerts. It is the user’s responsibility to ensure notifications are active on their device to avoid missing important reminders."
+
+#. js-lingui-explicit-id
+msgid "6. Responsibility for Data"
+msgstr "6. Responsibility for Data"
+
+#. js-lingui-explicit-id
+msgid "The app provides tools for managing and storing client data, but users are responsible for entering accurate information and maintaining backups of critical data when necessary. {NAME_APP} is not liable for any data loss due to user error, device failure, or unauthorized access."
+msgstr "The app provides tools for managing and storing client data, but users are responsible for entering accurate information and maintaining backups of critical data when necessary. {NAME_APP} is not liable for any data loss due to user error, device failure, or unauthorized access."
+
+#. js-lingui-explicit-id
+msgid "7. Changes to Terms"
+msgstr "7. Changes to Terms"
+
+#. js-lingui-explicit-id
+msgid "These Terms of Use may be updated periodically. Any changes will be published within the app, and the effective date will be revised accordingly. Continued use of the app after updates signifies acceptance of the new terms."
+msgstr "These Terms of Use may be updated periodically. Any changes will be published within the app, and the effective date will be revised accordingly. Continued use of the app after updates signifies acceptance of the new terms."
+
+#. js-lingui-explicit-id
+msgid "8. Limitation of Liability"
+msgstr "8. Limitation of Liability"
+
+#. js-lingui-explicit-id
+msgid "{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the app. This includes issues caused by errors, interruptions, third-party integrations, or unauthorized access to data."
+msgstr "{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the app. This includes issues caused by errors, interruptions, third-party integrations, or unauthorized access to data."
+
+#. js-lingui-explicit-id
+msgid "9. Support"
+msgstr "9. Support"
+
+#. js-lingui-explicit-id
+msgid "For assistance with technical issues, subscription questions, or other inquiries, users can contact us at {CONTACT_EMAIL}. Our team strives to address support requests promptly, typically within 48 hours."
+msgstr "For assistance with technical issues, subscription questions, or other inquiries, users can contact us at {CONTACT_EMAIL}. Our team strives to address support requests promptly, typically within 48 hours."
+
+#. js-lingui-explicit-id
+msgid "10. Account Deletion"
+msgstr "10. Account Deletion"
+
+#. js-lingui-explicit-id
+msgid "If you wish to delete your account, you can do so through the app's settings or by submitting a request via the developer's feedback form at the following link: https://vb-dev.org.ua/#feedback."
+msgstr "If you wish to delete your account, you can do so through the app's settings or by submitting a request via the developer's feedback form at the following link: https://vb-dev.org.ua/#feedback."
+
+#. js-lingui-explicit-id
+msgid "11. Apple's Standard Terms"
+msgstr "11. Apple's Standard Terms"
+
+#. js-lingui-explicit-id
+msgid "In addition to these Terms of Use, {NAME_APP} operates under the Apple Standard End User License Agreement (EULA), which can be found at the following link:"
+msgstr "In addition to these Terms of Use, {NAME_APP} operates under the Apple Standard End User License Agreement (EULA), which can be found at the following link:"
+
+#. js-lingui-explicit-id
+msgid "By using {NAME_APP}, you confirm that you have read and agreed to these Terms of Use."
+msgstr "By using {NAME_APP}, you confirm that you have read and agreed to these Terms of Use."
