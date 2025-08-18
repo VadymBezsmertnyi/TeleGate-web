@@ -18,7 +18,7 @@ const About: FunctionComponent = () => {
       </h1>
       <p className={styles.title}>
         {i18n._(
-          `Welcome to {NAME_APP} – your mobile companion for stylists, makeup artists, and other professionals! This app is designed to help you efficiently manage client meetings, take notes, and sync your schedule with your phone's calendar.`,
+          `Welcome to {NAME_APP} – your comprehensive Telegram bot management platform! This app is designed to help you efficiently manage Telegram bots, groups, members, and automate messaging workflows.`,
           { NAME_APP }
         )}
       </p>
@@ -26,33 +26,38 @@ const About: FunctionComponent = () => {
       <ul className={styles.list}>
         <li>
           {i18n._(
-            `Clients and Notes: Easily create and store client profiles, take notes for each meeting.`
+            `Bot Management: Create and manage multiple Telegram bots with ease.`
           )}
         </li>
         <li>
           {i18n._(
-            `Calendar Sync: Your meetings automatically sync with your device's calendar.`
+            `Group Management: Organize and manage Telegram groups and channels.`
           )}
         </li>
         <li>
           {i18n._(
-            `Reminders: Receive notifications for upcoming meetings and send SMS reminders to clients.`
+            `Member Management: Track and manage group members with detailed profiles.`
           )}
         </li>
         <li>
           {i18n._(
-            `Ease of Use: Intuitive interface for quick access to your data.`
+            `Message Templates: Create and use customizable message templates for automated responses.`
           )}
         </li>
         <li>
           {i18n._(
-            `Subscriptions: Access additional features with a subscription, including a free trial period.`
+            `Analytics: Get insights into bot performance and user engagement.`
+          )}
+        </li>
+        <li>
+          {i18n._(
+            `Push Notifications: Receive real-time notifications for important events.`
           )}
         </li>
       </ul>
       <p className={styles.subTitle}>
         {i18n._(
-          `We are always striving to improve our app to make it even more useful for you. Therefore, we appreciate your feedback and suggestions for enhancement. Together, we can take {NAME_APP} to the next level!`,
+          `We are constantly working to improve our platform to make Telegram bot management even more efficient and powerful. Your feedback and suggestions help us enhance {NAME_APP} and bring new features to make your bot management experience seamless.`,
           { NAME_APP }
         )}
       </p>

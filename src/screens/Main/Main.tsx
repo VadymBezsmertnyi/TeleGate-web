@@ -17,46 +17,46 @@ export default function Main() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
-  const appStoreUrl = "https://apps.apple.com/us/app/beauty-sync/id6737201591";
+  const appStoreUrl = "https://apps.apple.com/us/app/telegate/id1234567890";
   const googlePlayUrl =
-    "https://play.google.com/store/apps/details?id=com.beautysync.app&hl=uk";
+    "https://play.google.com/store/apps/details?id=com.telegate.app&hl=uk";
 
   return (
     <>
       <Head>
-        <title>Beauty Sync – Smart Scheduling App for Beauty Experts</title>
+        <title>TeleGate – Telegram Bot Management Platform</title>
         <meta
           name="description"
-          content="Beauty Sync helps beauty professionals manage appointments, clients, and reminders with ease."
+          content="TeleGate helps you manage Telegram bots, groups, and messaging with powerful automation tools."
         />
         <meta
           property="og:title"
-          content="Beauty Sync – Smart Scheduling App for Beauty Experts"
+          content="TeleGate – Telegram Bot Management Platform"
         />
         <meta
           property="og:description"
-          content="Beauty Sync helps beauty professionals manage appointments, clients, and reminders with ease."
+          content="TeleGate helps you manage Telegram bots, groups, and messaging with powerful automation tools."
         />
-        <meta property="og:image" content="/adaptive-logo.png" />
-        <meta property="og:url" content="https://beautysync.app" />
+        <meta property="og:image" content="/telegate-adaptive-icon.png" />
+        <meta property="og:url" content="https://telegate.app" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Beauty Sync – Smart Scheduling App for Beauty Experts"
+          content="TeleGate – Telegram Bot Management Platform"
         />
         <meta
           name="twitter:description"
-          content="Beauty Sync helps beauty professionals manage appointments, clients, and reminders with ease."
+          content="TeleGate helps you manage Telegram bots, groups, and messaging with powerful automation tools."
         />
-        <meta name="twitter:image" content="/adaptive-logo.png" />
+        <meta name="twitter:image" content="/telegate-adaptive-icon.png" />
       </Head>
 
       <Box
         sx={{
           minHeight: "100vh",
           background:
-            "linear-gradient(135deg, #ff69b4 0%, #8a2be2 50%, #ff1493 100%)",
+            "linear-gradient(135deg, #0088cc 0%, #229ED9 50%, #0088cc 100%)",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -100,7 +100,7 @@ export default function Main() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              {i18n._("Beauty Sync")}
+              {i18n._("TeleGate")}
             </Typography>
 
             <Typography
@@ -112,7 +112,7 @@ export default function Main() {
                 textShadow: "1px 1px 2px rgba(0,0,0,0.3)",
               }}
             >
-              {i18n._("Smart Scheduling App for Beauty Experts")}
+              {i18n._("Telegram Bot Management Platform")}
             </Typography>
 
             <Typography
@@ -127,7 +127,7 @@ export default function Main() {
               }}
             >
               {i18n._(
-                "Beauty Sync helps beauty professionals manage appointments, clients, and reminders with ease."
+                "TeleGate helps you manage Telegram bots, groups, and messaging with powerful automation tools."
               )}
             </Typography>
           </Box>
