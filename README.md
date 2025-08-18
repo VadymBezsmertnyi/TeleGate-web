@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TeleGate Web
 
-## Getting Started
+TeleGate Web - це веб-сайт для платформи управління Telegram ботами.
 
-First, run the development server:
+## Опис
+
+TeleGate Web надає інформацію про додаток TeleGate, який допомагає керувати Telegram ботами, групами та повідомленнями з потужними інструментами автоматизації.
+
+## Функції
+
+- **Управління ботами**: Створюйте та керуйте кількома Telegram ботами
+- **Управління групами**: Організовуйте та керуйте Telegram групами та каналами
+- **Управління учасниками**: Відстежуйте та керуйте учасниками груп
+- **Шаблони повідомлень**: Створюйте налаштовувані шаблони повідомлень
+- **Аналітика**: Отримуйте інсайти про продуктивність ботів
+- **Push-сповіщення**: Отримуйте сповіщення в реальному часі
+
+## Технології
+
+- **Next.js** - React фреймворк
+- **TypeScript** - типізований JavaScript
+- **Material-UI** - UI компоненти
+- **Lingui** - інтернаціоналізація
+
+## Запуск проекту
 
 ```bash
+# Встановлення залежностей
+npm install
+
+# Запуск в режимі розробки
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Збірка для продакшену
+npm run build
+
+# Запуск продакшен версії
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Відкрийте [http://localhost:3000](http://localhost:3000) у браузері для перегляду результату.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Структура проекту
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+src/
+├── components/     # React компоненти
+├── screens/        # Екрани додатку
+├── localization/   # Файли локалізації
+├── constants/      # Константи
+└── providers/      # React провайдери
+```
 
-## Learn More
+## Локалізація
 
-To learn more about Next.js, take a look at the following resources:
+Проект підтримує українську та англійську мови. Файли локалізації знаходяться в `src/localization/`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Ліцензія
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+© 2024 TeleGate. Всі права захищені.
