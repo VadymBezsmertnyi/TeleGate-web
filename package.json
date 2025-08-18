@@ -18,8 +18,9 @@
     "@lingui/react": "^4.7.1",
     "@mui/icons-material": "^5.15.14",
     "@mui/material": "^5.15.14",
+    "country-flag-icons": "^1.5.13",
     "next": "14.1.0",
-    "next-transpile-modules": "^10.0.1",
+    "zod": "^3.22.4",
     "react": "^18",
     "react-dom": "^18"
   },
