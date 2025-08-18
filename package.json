@@ -24,7 +24,6 @@
     "geolib": "^3.3.4",
     "mui-tel-input": "^5.1.2",
     "next": "14.1.0",
-    "next-auth": "^4.24.6",
     "next-transpile-modules": "^10.0.1",
     "qs": "^6.11.2",
     "react": "^18",
