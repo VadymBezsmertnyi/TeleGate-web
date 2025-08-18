@@ -58,7 +58,7 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`3. Subscriptions and Payments`),
           i18n._(
-            `{NAME_APP} offers a free tier with basic features, and premium subscriptions for advanced functionality. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law.`,
+            `{NAME_APP} offers a free tier with basic features, and two premium subscription plans (Pro and Ultimate) for advanced functionality. All subscriptions are billed monthly. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law.`,
             {
               NAME_APP,
             }
@@ -75,31 +75,23 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`- Free Plan`),
           i18n._(
-            `- Basic group management features\n- Limited analytics\n- Community support`
+            `- Basic group management features\n- Limited filters\n- Community support`
           )
         )}
       </div>
       <div>
         {line(
-          i18n._(`- Annual`),
+          i18n._(`- Pro Plan`),
           i18n._(
-            `- Subscription name: annual_29_88_12m\n- Duration: 1 year\n- Price: $29.88 per year\n- Full access to all features`
+            `- Price: $4.99 per month\n- Manage up to 5 groups\n- Advanced filters\n- Analytics tab access\n- Bot templates customization`
           )
         )}
       </div>
       <div>
         {line(
-          i18n._(`- Semi-Annual`),
+          i18n._(`- Ultimate Plan`),
           i18n._(
-            `- Subscription name: semi_annual_17_94_6m\n- Duration: 6 months\n- Price: $17.94 per 6 months\n- Full access to all features`
-          )
-        )}
-      </div>
-      <div>
-        {line(
-          i18n._(`- Monthly`),
-          i18n._(
-            `- Subscription name: monthly_2_99_1m\n- Duration: 1 month\n- Price: $2.99 per month\n- Full access to all features`
+            `- Price: $9.99 per month\n- Unlimited groups\n- All analytics features\n- Priority support\n- Advanced bot automation`
           )
         )}
       </div>

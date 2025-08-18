@@ -30,7 +30,7 @@ export const PrivacyPolicy: FunctionComponent = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.mainTitle}>{i18n._("Terms of Use")}</h1>
+      <h1 className={styles.mainTitle}>{i18n._("Privacy Policy")}</h1>
       <div>
         <p className={styles.text}>
           <strong>{i18n._("Last updated:")}</strong>{" "}
