@@ -1,5 +1,8 @@
 .container {
   padding: 20px 40px;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #2d2d2d 100%);
+  min-height: 100vh;
+  color: #ffffff;
 }
 
 .title {
@@ -7,11 +10,13 @@
   font-size: 32px;
   margin-bottom: 20px;
   text-align: center;
-  color: #002f34;
+  color: #3b82f6;
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
 }
 
 .subTitle {
   font-weight: 500;
   font-size: 18px;
   text-align: justify;
+  color: #e5e7eb;
 }

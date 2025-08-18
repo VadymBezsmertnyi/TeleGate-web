@@ -56,7 +56,7 @@ export default function Main() {
         sx={{
           minHeight: "100vh",
           background:
-            "linear-gradient(135deg, #0088cc 0%, #229ED9 50%, #0088cc 100%)",
+            "linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #2d2d2d 100%)",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -149,19 +149,20 @@ export default function Main() {
               target="_blank"
               rel="noopener noreferrer"
               sx={{
-                background: "rgba(255, 255, 255, 0.9)",
-                color: "#000",
+                background: "linear-gradient(135deg, #3B82F6 0%, #2563EB 100%)",
+                color: "#fff",
                 px: 4,
                 py: 2,
-                borderRadius: 3,
+                borderRadius: 12,
                 fontWeight: 600,
                 textTransform: "none",
                 fontSize: "1.1rem",
-                boxShadow: "0 8px 32px rgba(0,0,0,0.2)",
+                boxShadow: "0 8px 32px rgba(59, 130, 246, 0.3)",
                 "&:hover": {
-                  background: "rgba(255, 255, 255, 1)",
+                  background:
+                    "linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)",
                   transform: "translateY(-2px)",
-                  boxShadow: "0 12px 40px rgba(0,0,0,0.3)",
+                  boxShadow: "0 12px 40px rgba(59, 130, 246, 0.4)",
                 },
                 transition: "all 0.3s ease",
               }}
@@ -177,19 +178,20 @@ export default function Main() {
               target="_blank"
               rel="noopener noreferrer"
               sx={{
-                background: "rgba(255, 255, 255, 0.9)",
-                color: "#000",
+                background: "linear-gradient(135deg, #3B82F6 0%, #2563EB 100%)",
+                color: "#fff",
                 px: 4,
                 py: 2,
-                borderRadius: 3,
+                borderRadius: 12,
                 fontWeight: 600,
                 textTransform: "none",
                 fontSize: "1.1rem",
-                boxShadow: "0 8px 32px rgba(0,0,0,0.2)",
+                boxShadow: "0 8px 32px rgba(59, 130, 246, 0.3)",
                 "&:hover": {
-                  background: "rgba(255, 255, 255, 1)",
+                  background:
+                    "linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)",
                   transform: "translateY(-2px)",
-                  boxShadow: "0 12px 40px rgba(0,0,0,0.3)",
+                  boxShadow: "0 12px 40px rgba(59, 130, 246, 0.4)",
                 },
                 transition: "all 0.3s ease",
               }}

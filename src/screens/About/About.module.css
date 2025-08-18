@@ -1,5 +1,8 @@
 .container {
   padding: 20px 40px;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #2d2d2d 100%);
+  min-height: 100vh;
+  color: #ffffff;
 }
 
 .mainTitle {
@@ -7,6 +10,8 @@
   font-weight: 600;
   margin-bottom: 20px;
   text-align: left;
+  color: #3b82f6;
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
   @media (max-width: 768px) {
     font-size: 3em;
   }
@@ -18,7 +23,7 @@
 .title {
   font-weight: 700;
   font-size: 32px;
-  color: #002f34;
+  color: #ffffff;
   margin-top: 20px;
   text-align: left;
   @media (max-width: 440px) {
@@ -30,7 +35,7 @@
   font-weight: 600;
   font-size: 20px;
   text-align: justify;
-  color: #002f34;
+  color: #e5e7eb;
   margin-top: 20px;
   @media (max-width: 440px) {
     font-size: 16px;
@@ -40,10 +45,30 @@
 .text {
   font-weight: 400;
   font-size: 16px;
-  color: #002f34;
+  color: #d1d5db;
   margin-top: 5px;
 }
 
 .link {
   text-decoration: underline;
+}
+
+.list {
+  color: #e5e7eb;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.list li::before {
+  content: "•";
+  color: #3b82f6;
+  font-weight: bold;
+  position: absolute;
+  left: -15px;
 }
