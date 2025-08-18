@@ -39,3 +39,7 @@ next-env.d.ts
 # pico-8
 *.p8
 keys.txt
+
+# other
+package-lock.json
+yarn.lock
