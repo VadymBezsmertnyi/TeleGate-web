@@ -37,7 +37,7 @@ export const Header: FunctionComponent<HeaderProps> = ({
         }}
       >
         <Image
-          src={"/adaptive-logo.png"}
+          src={"/telegate-icon.png"}
           alt={i18n._("Logo")}
           width={50}
           height={50}
