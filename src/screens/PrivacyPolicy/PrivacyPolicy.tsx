@@ -1,6 +1,4 @@
 import React, { FunctionComponent } from "react";
-import Link from "next/link";
-import { Trans } from "@lingui/react";
 
 // providers
 import { useLocalesProvider } from "@/localization/localization.provider";
@@ -32,19 +30,17 @@ export const PrivacyPolicy: FunctionComponent = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.mainTitle}>
-        <Trans id="Privacy Policy" />
-      </h1>
+      <h1 className={styles.mainTitle}>{i18n._("Terms of Use")}</h1>
       <div>
         <p className={styles.text}>
-          <strong>
-            <Trans id="Last updated:" />
-          </strong>{" "}
-          <Trans id="December 7, 2024" />
+          <strong>{i18n._("Last updated:")}</strong>{" "}
+          {i18n._("August {numberDay}, 2025", {
+            numberDay: 18,
+          })}
         </p>
         <p className={styles.text}>
           {i18n._(
-            `The "{NAME_APP}" mobile and web applications are developed and operated by Vadym Bezsmertnyi, FOP ("us", "we", or "our"). This Privacy Policy explains how we collect, use, and protect your personal information when you access and use our mobile application and services ("Service").`,
+            `The "{NAME_APP}" mobile application and web service are developed and operated by Vadym Bezsmertnyi, FOP ("us", "we", or "our"). This Privacy Policy explains how we collect, use, and protect your personal information when you access and use our Telegram bot management platform and services ("Service").`,
             { NAME_APP }
           )}
         </p>
@@ -54,52 +50,65 @@ export const PrivacyPolicy: FunctionComponent = () => {
         {line(
           i18n._("Information Collection"),
           i18n._(
-            "We collect information to ensure the effective functionality of the {NAME_APP} app. The data collected may include:",
+            "We collect information to ensure the effective functionality of the {NAME_APP} service. The data collected may include:",
             { NAME_APP }
           ),
           [
-            i18n._("Contacts: to create client records."),
-            i18n._("Calendar data: to synchronize appointments and reminders."),
             i18n._(
-              "Camera and photo library: to upload client or work photos."
+              "Telegram account information: username, user ID, and profile data."
             ),
             i18n._(
-              "Push notifications: to remind users about upcoming appointments."
+              "Group and channel data: information about Telegram groups you manage."
             ),
             i18n._(
-              "Personal user information: such as name, email address, and phone number."
+              "Member data: information about group members for management purposes."
             ),
+            i18n._(
+              "Message templates: custom templates you create for automated messaging."
+            ),
+            i18n._("Analytics data: usage statistics and performance metrics."),
             i18n._(
               "Subscription information: for managing your account and processing payments."
             ),
+            i18n._("Device information: for app functionality and security."),
           ]
         )}
         {line(
           i18n._("Use of Information"),
           i18n._(
-            "We do not use your information for unrelated purposes without your consent. The collected data is used to:"
+            "We process your data based on legitimate interests and contractual necessity. The collected data is used to:"
           ),
           [
-            i18n._("Create client records and appointments."),
-            i18n._("Send SMS reminders to clients."),
-            i18n._("Synchronize the calendar for appointment reminders."),
+            i18n._("Provide Telegram group management functionality."),
+            i18n._("Analyze group activity and member statistics."),
             i18n._(
-              "Enable app features such as uploading photos and creating notes."
+              "Send automated messages and notifications through your bot."
             ),
-            i18n._("Manage subscriptions and process billing."),
+            i18n._("Manage message templates and bot settings."),
+            i18n._("Process subscriptions and billing."),
+            i18n._("Improve service functionality and user experience."),
           ]
         )}
         {line(
-          i18n._("Access to Permissions"),
+          i18n._("Telegram API Integration"),
           i18n._(
-            "Permissions are requested only for functions directly related to the app’s operation. The {NAME_APP} app requires access to the following device features:",
+            "Our service integrates with Telegram's API to provide group management features. We only access data that you authorize through Telegram's authentication process. The {NAME_APP} service requires the following permissions:",
             { NAME_APP }
           ),
           [
-            i18n._("Contacts: to add clients to the app."),
-            i18n._("Calendar: to sync events."),
-            i18n._("Camera and photo library: to upload images."),
-            i18n._("Push notifications: to send reminders."),
+            i18n._(
+              "Read group information: to display group details and member lists."
+            ),
+            i18n._(
+              "Send messages: to deliver automated notifications and templates."
+            ),
+            i18n._(
+              "Manage groups: to perform administrative tasks you authorize."
+            ),
+            i18n._(
+              "Access member data: to provide member management features."
+            ),
+            i18n._("Analytics data: to provide usage statistics and insights."),
           ]
         )}
       </div>
@@ -108,23 +117,33 @@ export const PrivacyPolicy: FunctionComponent = () => {
         {line(
           i18n._("Data Security"),
           i18n._(
-            "Your data is accessible only to you and is not shared without your consent. We use modern technologies to protect your data:"
+            "Your data is protected using industry-standard security measures. We implement the following security practices:"
           ),
           [
-            "Encryption during data transmission.",
+            "End-to-end encryption for data transmission.",
+            "Secure API authentication with Telegram.",
             "Limited access to servers where information is stored.",
-            "Regular security updates.",
+            "Regular security updates and monitoring.",
+            "Compliance with Telegram's security requirements.",
           ]
         )}
         {line(
           i18n._("Sharing Information with Third Parties"),
           i18n._(
-            "These third parties have their own privacy policies, and we encourage you to review them. We may share your data with third parties in the following cases:"
+            "We may share your data with third parties in the following cases:"
           ),
           [
-            "For sending SMS through external services (e.g., bulk messaging platforms).",
-            "For processing payments via the Apple App Store or Google Play.",
+            "Telegram API: for service functionality and bot operations.",
+            "Payment processors: Apple App Store and Google Play for subscription billing.",
+            "Analytics services: for service improvement (anonymized data only).",
+            "Legal requirements: when required by law or to protect our rights.",
           ]
+        )}
+        {line(
+          i18n._("International Data Transfers"),
+          i18n._(
+            "Your data may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place to protect your data in accordance with applicable data protection laws."
+          )
         )}
         {line(
           i18n._("User Rights"),
@@ -142,9 +161,24 @@ export const PrivacyPolicy: FunctionComponent = () => {
               "Delete your data: You can request the deletion of your information."
             ),
             i18n._(
-              "Revoke permissions: You can modify app permissions via your device settings."
+              "Revoke Telegram permissions: You can disconnect your Telegram account at any time."
+            ),
+            i18n._(
+              "Export your data: You can request a copy of your data in a portable format."
+            ),
+            i18n._(
+              "Rectify your data: You can request correction of inaccurate personal data."
+            ),
+            i18n._(
+              "Restrict processing: You can request limitation of data processing under certain circumstances."
             ),
           ]
+        )}
+        {line(
+          i18n._("Data Retention"),
+          i18n._(
+            "We retain your data only as long as necessary to provide our services. Data is automatically deleted when you delete your account or revoke Telegram permissions. Some data may be retained for legal or security purposes as required by law. We comply with applicable data protection laws including GDPR where applicable."
+          )
         )}
         {line(
           i18n._("Changes to the Privacy Policy"),

@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from "react";
-import { Trans } from "@lingui/react";
 
 // providers
 import { useLocalesProvider } from "@/localization/localization.provider";
@@ -22,30 +21,26 @@ const TermsOfUse: FunctionComponent = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.mainTitle}>
-        <Trans id="Terms of Use" />
-      </h1>
+      <h1 className={styles.mainTitle}>{i18n._("Terms of Use")}</h1>
       <div>
         <p className={styles.text}>
-          <strong>
-            <Trans id="Last updated:" />
-          </strong>{" "}
-          {i18n._("April {numberMonth}, 2025", {
-            numberMonth: 4,
+          <strong>{i18n._("Last updated:")}</strong>{" "}
+          {i18n._("August {numberDay}, 2025", {
+            numberDay: 18,
           })}
         </p>
         <p className={styles.text}>
           {i18n._(
-            `"{NAME_APP}" mobile application is developed by Vadym Bezsmertnyi, FOP ("us", "we", or "our"). By accessing or using our mobile application ("Service"), you (the User) agree to abide by and be bound by these Terms of Use. Please read these terms carefully before using the app.`,
+            `"{NAME_APP}" mobile application and web service is developed by Vadym Bezsmertnyi, FOP ("us", "we", or "our"). By accessing or using our mobile application and web services ("Service"), you (the User) agree to abide by and be bound by these Terms of Use. Please read these terms carefully before using the service.`,
             { NAME_APP }
           )}
         </p>
       </div>
       <div>
         {line(
-          i18n._("1. Purpose of the Application"),
+          i18n._("1. Purpose of the Service"),
           i18n._(
-            `{NAME_APP} is a mobile application created to help stylists, makeup artists, and other professionals manage their client appointments effectively. The app allows users to create detailed notes for each client meeting, synchronize schedules with their device’s calendar, send SMS reminders to clients, and receive notifications about upcoming appointments.`,
+            `{NAME_APP} is a Telegram bot management platform designed to help administrators and moderators manage Telegram groups and channels effectively. The service allows users to monitor group members, analyze group activity, manage message templates, send automated messages, and perform various administrative tasks through Telegram bot integration.`,
             { NAME_APP }
           )
         )}
@@ -54,7 +49,7 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`2. Permissions and Usage Restrictions`),
           i18n._(
-            `By using {NAME_APP}, you agree to utilize the app solely for its intended purposes. Any misuse of the app, such as reverse-engineering, unauthorized modifications, or illegal activities, is strictly prohibited. Users are also responsible for maintaining the confidentiality of their account credentials and ensuring that the app is used in compliance with local laws and regulations.`,
+            `By using {NAME_APP}, you agree to utilize the service solely for its intended purposes. Any misuse of the service, such as reverse-engineering, unauthorized modifications, or illegal activities, is strictly prohibited. Users are responsible for ensuring that their use of the service complies with Telegram's Terms of Service and local laws and regulations. You may not use the service for spam, harassment, or any activities that violate Telegram's policies.`,
             { NAME_APP }
           )
         )}
@@ -63,7 +58,7 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`3. Subscriptions and Payments`),
           i18n._(
-            `{NAME_APP} offers a one-month free trial, after which a subscription is required to access premium features. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law.`,
+            `{NAME_APP} offers a free tier with basic features, and premium subscriptions for advanced functionality. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law.`,
             {
               NAME_APP,
             }
@@ -73,8 +68,14 @@ const TermsOfUse: FunctionComponent = () => {
       <div>
         {line(
           i18n._(`4. Subscription Information`),
+          i18n._(`The following subscription plans are available:`)
+        )}
+      </div>
+      <div>
+        {line(
+          i18n._(`- Free Plan`),
           i18n._(
-            `The following subscriptions are available for use in the app:`
+            `- Basic group management features\n- Limited analytics\n- Community support`
           )
         )}
       </div>
@@ -82,7 +83,7 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`- Annual`),
           i18n._(
-            `- Subscription name: annual_29_88_12m\n- Duration: 1 year\n- Price: $29.88 per year`
+            `- Subscription name: annual_29_88_12m\n- Duration: 1 year\n- Price: $29.88 per year\n- Full access to all features`
           )
         )}
       </div>
@@ -90,7 +91,7 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`- Semi-Annual`),
           i18n._(
-            `- Subscription name: semi_annual_17_94_6m\n- Duration: 6 months\n- Price: $17.94 per 6 months`
+            `- Subscription name: semi_annual_17_94_6m\n- Duration: 6 months\n- Price: $17.94 per 6 months\n- Full access to all features`
           )
         )}
       </div>
@@ -98,23 +99,24 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`- Monthly`),
           i18n._(
-            `- Subscription name: monthly_2_99_1m\n- Duration: 1 month\n- Price: $2.99 per month`
+            `- Subscription name: monthly_2_99_1m\n- Duration: 1 month\n- Price: $2.99 per month\n- Full access to all features`
           )
         )}
       </div>
       <div>
         {line(
-          i18n._(`5. Notifications and Reminders`),
+          i18n._(`5. Telegram Integration`),
           i18n._(
-            `The app sends notifications and reminders to inform users about upcoming appointments and related updates. By enabling push notifications, users consent to receiving these alerts. It is the user’s responsibility to ensure notifications are active on their device to avoid missing important reminders.`
+            `{NAME_APP} integrates with Telegram's API to provide group management functionality. Users must comply with Telegram's Terms of Service and API usage policies. The service requires appropriate Telegram bot permissions to function properly.`,
+            { NAME_APP }
           )
         )}
       </div>
       <div>
         {line(
-          i18n._(`6. Responsibility for Data`),
+          i18n._(`6. Data Management and Privacy`),
           i18n._(
-            `The app provides tools for managing and storing client data, but users are responsible for entering accurate information and maintaining backups of critical data when necessary. {NAME_APP} is not liable for any data loss due to user error, device failure, or unauthorized access.`,
+            `The service processes Telegram group data for management purposes. Users are responsible for ensuring they have the necessary permissions to manage the groups they connect to the service. {NAME_APP} is not liable for any data loss or unauthorized access to Telegram groups. Users must comply with Telegram's Terms of Service and API usage policies.`,
             { NAME_APP }
           )
         )}
@@ -123,7 +125,7 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`7. Changes to Terms`),
           i18n._(
-            `These Terms of Use may be updated periodically. Any changes will be published within the app, and the effective date will be revised accordingly. Continued use of the app after updates signifies acceptance of the new terms.`
+            `These Terms of Use may be updated periodically. Any changes will be published within the service, and the effective date will be revised accordingly. Continued use of the service after updates signifies acceptance of the new terms.`
           )
         )}
       </div>
@@ -131,7 +133,7 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`8. Limitation of Liability`),
           i18n._(
-            `{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the app. This includes issues caused by errors, interruptions, third-party integrations, or unauthorized access to data.`,
+            `{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the service. This includes issues caused by errors, interruptions, Telegram API limitations, or unauthorized access to data.`,
             { NAME_APP }
           )
         )}
