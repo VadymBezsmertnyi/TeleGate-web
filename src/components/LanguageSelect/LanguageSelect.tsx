@@ -7,7 +7,6 @@ import { Language } from "@/localization/localization.types";
 
 // providers
 import { useLocalesProvider } from "@/localization/localization.provider";
-import { useUserProvider } from "@/providers/UserProvider/UserProvider";
 
 // components
 import ModalWindow from "../ModalWindow/ModalWindow";
@@ -20,7 +19,6 @@ import styles from "./LanguageSelect.styles";
 
 const LanguageSelect: FunctionComponent = () => {
   const { i18n, language, setLanguage } = useLocalesProvider();
-  const { userData, editUser } = useUserProvider();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const titleLanguage = useMemo(
@@ -39,7 +37,6 @@ const LanguageSelect: FunctionComponent = () => {
 
   const onSelectLanguage = async (newLanguage: Language) => {
     await setLanguage(newLanguage);
-    if (userData) await editUser({ ...userData, languageLocal: newLanguage });
     setIsModalOpen(false);
   };
 
