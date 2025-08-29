@@ -270,6 +270,14 @@ msgid "Your data may be transferred to and processed in countries other than you
 msgstr "Your data may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place to protect your data in accordance with applicable data protection laws."
 
 #. js-lingui-explicit-id
+msgid "Content Monitoring and Prohibited Activities"
+msgstr "Content Monitoring and Prohibited Activities"
+
+#. js-lingui-explicit-id
+msgid "We may monitor channels to which the bot is connected to ensure compliance with international norms and laws. In case of detecting content that violates international standards (drugs, weapons, human trafficking, terrorism, etc.), we may submit complaints to relevant authorities, block user accounts, and take other necessary actions. Funds will not be refunded in such cases. This monitoring is conducted to protect our service and comply with legal obligations."
+msgstr "We may monitor channels to which the bot is connected to ensure compliance with international norms and laws. In case of detecting content that violates international standards (drugs, weapons, human trafficking, terrorism, etc.), we may submit complaints to relevant authorities, block user accounts, and take other necessary actions. Funds will not be refunded in such cases. This monitoring is conducted to protect our service and comply with legal obligations."
+
+#. js-lingui-explicit-id
 msgid "User Rights"
 msgstr "User Rights"
 
@@ -358,8 +366,8 @@ msgid "3. Subscriptions and Payments"
 msgstr "3. Subscriptions and Payments"
 
 #. js-lingui-explicit-id
-msgid "{NAME_APP} offers a free tier with basic features, and two premium subscription plans (Pro and Ultimate) for advanced functionality. All subscriptions are billed monthly. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law."
-msgstr "{NAME_APP} offers a free tier with basic features, and two premium subscription plans (Pro and Ultimate) for advanced functionality. All subscriptions are billed monthly. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law."
+msgid "{NAME_APP} offers a free tier with basic features, and two premium subscription plans (Pro and Ultimate) for advanced functionality. All subscriptions are billed monthly. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Apple and Google may adjust subscription prices depending on your region. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law."
+msgstr "{NAME_APP} offers a free tier with basic features, and two premium subscription plans (Pro and Ultimate) for advanced functionality. All subscriptions are billed monthly. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Apple and Google may adjust subscription prices depending on your region. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law."
 
 #. js-lingui-explicit-id
 msgid "4. Subscription Information"
@@ -370,54 +378,96 @@ msgid "The following subscription plans are available:"
 msgstr "The following subscription plans are available:"
 
 #. js-lingui-explicit-id
-msgid "- Free Plan"
-msgstr "- Free Plan"
+msgid "Free Plan"
+msgstr "Free Plan"
 
 #. js-lingui-explicit-id
-msgid ""
-"- Basic group management features\n"
-"- Limited filters\n"
-"- Community support"
-msgstr ""
-"- Basic group management features\n"
-"- Limited filters\n"
-"- Community support"
+msgid "Price: Free"
+msgstr "Price: Free"
 
 #. js-lingui-explicit-id
-msgid "- Pro Plan"
-msgstr "- Pro Plan"
+msgid "Manage 1 group"
+msgstr "Manage 1 group"
 
 #. js-lingui-explicit-id
-msgid ""
-"- Price: $4.99 per month\n"
-"- Manage up to 5 groups\n"
-"- Advanced filters\n"
-"- Analytics tab access\n"
-"- Bot templates customization"
-msgstr ""
-"- Price: $4.99 per month\n"
-"- Manage up to 5 groups\n"
-"- Advanced filters\n"
-"- Analytics tab access\n"
-"- Bot templates customization"
+msgid "Up to 20 members per group"
+msgstr "Up to 20 members per group"
 
 #. js-lingui-explicit-id
-msgid "- Ultimate Plan"
-msgstr "- Ultimate Plan"
+msgid "No filters"
+msgstr "No filters"
 
 #. js-lingui-explicit-id
-msgid ""
-"- Price: $9.99 per month\n"
-"- Unlimited groups\n"
-"- All analytics features\n"
-"- Priority support\n"
-"- Advanced bot automation"
-msgstr ""
-"- Price: $9.99 per month\n"
-"- Unlimited groups\n"
-"- All analytics features\n"
-"- Priority support\n"
-"- Advanced bot automation"
+msgid "No analytics"
+msgstr "No analytics"
+
+#. js-lingui-explicit-id
+msgid "No bot templates"
+msgstr "No bot templates"
+
+#. js-lingui-explicit-id
+msgid "No automation"
+msgstr "No automation"
+
+#. js-lingui-explicit-id
+msgid "Pro Plan"
+msgstr "Pro Plan"
+
+#. js-lingui-explicit-id
+msgid "Price: $5.99 per month"
+msgstr "Price: $5.99 per month"
+
+#. js-lingui-explicit-id
+msgid "Manage up to 5 groups"
+msgstr "Manage up to 5 groups"
+
+#. js-lingui-explicit-id
+msgid "Up to 100 members per group"
+msgstr "Up to 100 members per group"
+
+#. js-lingui-explicit-id
+msgid "Available filters"
+msgstr "Available filters"
+
+#. js-lingui-explicit-id
+msgid "Basic analytics (statistics by groups and members)"
+msgstr "Basic analytics (statistics by groups and members)"
+
+#. js-lingui-explicit-id
+msgid "Bot templates (greetings, auto-messages)"
+msgstr "Bot templates (greetings, auto-messages)"
+
+#. js-lingui-explicit-id
+msgid "Ultimate Plan"
+msgstr "Ultimate Plan"
+
+#. js-lingui-explicit-id
+msgid "Price: $11.99 per month"
+msgstr "Price: $11.99 per month"
+
+#. js-lingui-explicit-id
+msgid "Manage unlimited groups"
+msgstr "Manage unlimited groups"
+
+#. js-lingui-explicit-id
+msgid "Unlimited members"
+msgstr "Unlimited members"
+
+#. js-lingui-explicit-id
+msgid "Smart filters (activity, dates, tags, last activity)"
+msgstr "Smart filters (activity, dates, tags, last activity)"
+
+#. js-lingui-explicit-id
+msgid "Full analytics (graphs, growth dynamics, behavioral metrics)"
+msgstr "Full analytics (graphs, growth dynamics, behavioral metrics)"
+
+#. js-lingui-explicit-id
+msgid "Advanced bot scenarios (funnels, reminders, autoprocesses)"
+msgstr "Advanced bot scenarios (funnels, reminders, autoprocesses)"
+
+#. js-lingui-explicit-id
+msgid "Automation (planned: auto-kick inactive, reminders, auto-messages)"
+msgstr "Automation (planned: auto-kick inactive, reminders, auto-messages)"
 
 #. js-lingui-explicit-id
 msgid "5. Telegram Integration"
@@ -448,28 +498,36 @@ msgid "8. Limitation of Liability"
 msgstr "8. Limitation of Liability"
 
 #. js-lingui-explicit-id
-msgid "{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the service. This includes issues caused by errors, interruptions, Telegram API limitations, or unauthorized access to data."
-msgstr "{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the service. This includes issues caused by errors, interruptions, Telegram API limitations, or unauthorized access to data."
+msgid "{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the service. This includes issues caused by errors, interruptions, Telegram API limitations, or unauthorized access to data. We are not responsible for illegal use of the application by users."
+msgstr "{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the service. This includes issues caused by errors, interruptions, Telegram API limitations, or unauthorized access to data. We are not responsible for illegal use of the application by users."
 
 #. js-lingui-explicit-id
-msgid "9. Support"
-msgstr "9. Support"
+msgid "9. Prohibited Activities and Content Monitoring"
+msgstr "9. Prohibited Activities and Content Monitoring"
+
+#. js-lingui-explicit-id
+msgid "We may monitor channels to which the bot is connected. In case of detecting content that violates international norms (drugs, weapons, human trafficking, terrorism, etc.), we may submit a complaint to close the channel, block the user account, and funds will not be refunded. Users are responsible for ensuring that their use of the service complies with all applicable laws and regulations."
+msgstr "We may monitor channels to which the bot is connected. In case of detecting content that violates international norms (drugs, weapons, human trafficking, terrorism, etc.), we may submit a complaint to close the channel, block the user account, and funds will not be refunded. Users are responsible for ensuring that their use of the service complies with all applicable laws and regulations."
+
+#. js-lingui-explicit-id
+msgid "10. Support"
+msgstr "10. Support"
 
 #. js-lingui-explicit-id
 msgid "For assistance with technical issues, subscription questions, or other inquiries, users can contact us at {CONTACT_EMAIL}. Our team strives to address support requests promptly, typically within 48 hours."
 msgstr "For assistance with technical issues, subscription questions, or other inquiries, users can contact us at {CONTACT_EMAIL}. Our team strives to address support requests promptly, typically within 48 hours."
 
 #. js-lingui-explicit-id
-msgid "10. Account Deletion"
-msgstr "10. Account Deletion"
+msgid "11. Account Deletion"
+msgstr "11. Account Deletion"
 
 #. js-lingui-explicit-id
 msgid "If you wish to delete your account, you can do so through the app's settings or by submitting a request via the developer's feedback form at the following link: https://vb-dev.org.ua/#feedback."
 msgstr "If you wish to delete your account, you can do so through the app's settings or by submitting a request via the developer's feedback form at the following link: https://vb-dev.org.ua/#feedback."
 
 #. js-lingui-explicit-id
-msgid "11. Apple's Standard Terms"
-msgstr "11. Apple's Standard Terms"
+msgid "12. Apple's Standard Terms"
+msgstr "12. Apple's Standard Terms"
 
 #. js-lingui-explicit-id
 msgid "In addition to these Terms of Use, {NAME_APP} operates under the Apple Standard End User License Agreement (EULA), which can be found at the following link:"

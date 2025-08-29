@@ -270,6 +270,14 @@ msgid "Your data may be transferred to and processed in countries other than you
 msgstr "Ваші дані можуть бути передані та оброблені в країнах, відмінних від вашої. Ми забезпечуємо відповідні заходи захисту для захисту ваших даних відповідно до чинного законодавства про захист даних."
 
 #. js-lingui-explicit-id
+msgid "Content Monitoring and Prohibited Activities"
+msgstr "Моніторинг контенту та заборонені дії"
+
+#. js-lingui-explicit-id
+msgid "We may monitor channels to which the bot is connected to ensure compliance with international norms and laws. In case of detecting content that violates international standards (drugs, weapons, human trafficking, terrorism, etc.), we may submit complaints to relevant authorities, block user accounts, and take other necessary actions. Funds will not be refunded in such cases. This monitoring is conducted to protect our service and comply with legal obligations."
+msgstr "Ми можемо здійснювати моніторинг каналів, до яких підключено бота, щоб забезпечити відповідність міжнародним нормам і законам. У разі виявлення контенту, що порушує міжнародні стандарти (наркотики, зброя, торгівля людьми, тероризм тощо), ми можемо подати скарги до відповідних органів, заблокувати облікові записи користувачів та вжити інших необхідних заходів. У таких випадках кошти не повертаються. Цей моніторинг здійснюється для захисту нашого сервісу та виконання юридичних зобов'язань."
+
+#. js-lingui-explicit-id
 msgid "User Rights"
 msgstr "Права користувача"
 
@@ -358,8 +366,8 @@ msgid "3. Subscriptions and Payments"
 msgstr "3. Підписки та платежі"
 
 #. js-lingui-explicit-id
-msgid "{NAME_APP} offers a free tier with basic features, and two premium subscription plans (Pro and Ultimate) for advanced functionality. All subscriptions are billed monthly. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law."
-msgstr "{NAME_APP} пропонує безкоштовний рівень з базовими функціями та два платних плани підписки (Pro та Ultimate) для розширеної функціональності. Всі підписки оплачуються щомісяця. Платежі обробляються через Apple App Store або Google Play відповідно до їхніх політик. Підписки автоматично поновлюються, якщо не скасовані принаймні за 24 години до закінчення періоду оплати. Всі платежі не підлягають поверненню, якщо це не передбачено чинним законодавством."
+msgid "{NAME_APP} offers a free tier with basic features, and two premium subscription plans (Pro and Ultimate) for advanced functionality. All subscriptions are billed monthly. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Apple and Google may adjust subscription prices depending on your region. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law."
+msgstr "{NAME_APP} пропонує безкоштовний рівень з базовими функціями та два преміум-плани підписки (Pro та Ultimate) для розширеної функціональності. Всі підписки оплачуються щомісяця. Платежі обробляються через Apple App Store або Google Play відповідно до їхніх політик. Apple і Google можуть коригувати ціни на підписки залежно від вашого регіону. Підписки поновлюються автоматично, якщо їх не скасувати принаймні за 24 години до кінця платіжного періоду. Всі платежі не підлягають поверненню, якщо це не передбачено чинним законодавством."
 
 #. js-lingui-explicit-id
 msgid "4. Subscription Information"
@@ -370,54 +378,96 @@ msgid "The following subscription plans are available:"
 msgstr "Доступні наступні плани підписки:"
 
 #. js-lingui-explicit-id
-msgid "- Free Plan"
-msgstr "- Безкоштовний план"
+msgid "Free Plan"
+msgstr "Безкоштовний план"
 
 #. js-lingui-explicit-id
-msgid ""
-"- Basic group management features\n"
-"- Limited filters\n"
-"- Community support"
-msgstr ""
-"- Основні функції управління групами\n"
-"- Обмежені фільтри\n"
-"- Підтримка спільноти"
+msgid "Price: Free"
+msgstr "Ціна: Безкоштовно"
 
 #. js-lingui-explicit-id
-msgid "- Pro Plan"
-msgstr "- Pro план"
+msgid "Manage 1 group"
+msgstr "Керування 1 групою"
 
 #. js-lingui-explicit-id
-msgid ""
-"- Price: $4.99 per month\n"
-"- Manage up to 5 groups\n"
-"- Advanced filters\n"
-"- Analytics tab access\n"
-"- Bot templates customization"
-msgstr ""
-"- Ціна: $4.99 на місяць\n"
-"- Управління до 5 групами\n"
-"- Розширені фільтри\n"
-"- Доступ до вкладки аналітики\n"
-"- Налаштування шаблонів бота"
+msgid "Up to 20 members per group"
+msgstr "До 20 учасників на групу"
 
 #. js-lingui-explicit-id
-msgid "- Ultimate Plan"
-msgstr "- Ultimate план"
+msgid "No filters"
+msgstr "Без фільтрів"
 
 #. js-lingui-explicit-id
-msgid ""
-"- Price: $9.99 per month\n"
-"- Unlimited groups\n"
-"- All analytics features\n"
-"- Priority support\n"
-"- Advanced bot automation"
-msgstr ""
-"- Ціна: $9.99 на місяць\n"
-"- Необмежені групи\n"
-"- Всі функції аналітики\n"
-"- Пріоритетна підтримка\n"
-"- Розширена автоматизація бота"
+msgid "No analytics"
+msgstr "Без аналітики"
+
+#. js-lingui-explicit-id
+msgid "No bot templates"
+msgstr "Без шаблонів бота"
+
+#. js-lingui-explicit-id
+msgid "No automation"
+msgstr "Без автоматизації"
+
+#. js-lingui-explicit-id
+msgid "Pro Plan"
+msgstr "Pro план"
+
+#. js-lingui-explicit-id
+msgid "Price: $5.99 per month"
+msgstr "Ціна: $5.99 на місяць"
+
+#. js-lingui-explicit-id
+msgid "Manage up to 5 groups"
+msgstr "Керування до 5 групами"
+
+#. js-lingui-explicit-id
+msgid "Up to 100 members per group"
+msgstr "До 100 учасників на групу"
+
+#. js-lingui-explicit-id
+msgid "Available filters"
+msgstr "Доступні фільтри"
+
+#. js-lingui-explicit-id
+msgid "Basic analytics (statistics by groups and members)"
+msgstr "Базова аналітика (статистика за групами та учасниками)"
+
+#. js-lingui-explicit-id
+msgid "Bot templates (greetings, auto-messages)"
+msgstr "Шаблони бота (привітання, автоматичні повідомлення)"
+
+#. js-lingui-explicit-id
+msgid "Ultimate Plan"
+msgstr "Ultimate план"
+
+#. js-lingui-explicit-id
+msgid "Price: $11.99 per month"
+msgstr "Ціна: $11.99 на місяць"
+
+#. js-lingui-explicit-id
+msgid "Manage unlimited groups"
+msgstr "Керування необмеженою кількістю груп"
+
+#. js-lingui-explicit-id
+msgid "Unlimited members"
+msgstr "Необмежена кількість учасників"
+
+#. js-lingui-explicit-id
+msgid "Smart filters (activity, dates, tags, last activity)"
+msgstr "Розумні фільтри (активність, дати, теги, остання активність)"
+
+#. js-lingui-explicit-id
+msgid "Full analytics (graphs, growth dynamics, behavioral metrics)"
+msgstr "Повна аналітика (графіки, динаміка зростання, поведінкові метрики)"
+
+#. js-lingui-explicit-id
+msgid "Advanced bot scenarios (funnels, reminders, autoprocesses)"
+msgstr "Розширені сценарії бота (воронки, нагадування, автопроцеси)"
+
+#. js-lingui-explicit-id
+msgid "Automation (planned: auto-kick inactive, reminders, auto-messages)"
+msgstr "Автоматизація (заплановано: авто-викид неактивних, нагадування, автоматичні повідомлення)"
 
 #. js-lingui-explicit-id
 msgid "5. Telegram Integration"
@@ -448,28 +498,36 @@ msgid "8. Limitation of Liability"
 msgstr "8. Обмеження відповідальності"
 
 #. js-lingui-explicit-id
-msgid "{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the service. This includes issues caused by errors, interruptions, Telegram API limitations, or unauthorized access to data."
-msgstr "{NAME_APP} та його розробники не несуть відповідальності за будь-які збитки, що виникають внаслідок використання або неможливості використання сервісу. Це включає проблеми, спричинені помилками, перервами, обмеженнями API Telegram або несанкціонованим доступом до даних."
+msgid "{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the service. This includes issues caused by errors, interruptions, Telegram API limitations, or unauthorized access to data. We are not responsible for illegal use of the application by users."
+msgstr "{NAME_APP} та його розробники не несуть відповідальності за будь-які збитки, що виникли внаслідок використання або неможливості використання сервісу. Це включає проблеми, спричинені помилками, перервами, обмеженнями API Telegram або несанкціонованим доступом до даних. Ми не несемо відповідальності за незаконне використання додатку користувачами."
 
 #. js-lingui-explicit-id
-msgid "9. Support"
-msgstr "9. Підтримка"
+msgid "9. Prohibited Activities and Content Monitoring"
+msgstr "9. Заборонені дії та моніторинг контенту"
+
+#. js-lingui-explicit-id
+msgid "We may monitor channels to which the bot is connected. In case of detecting content that violates international norms (drugs, weapons, human trafficking, terrorism, etc.), we may submit a complaint to close the channel, block the user account, and funds will not be refunded. Users are responsible for ensuring that their use of the service complies with all applicable laws and regulations."
+msgstr "Ми можемо здійснювати моніторинг каналів, до яких підключено бота. У разі виявлення контенту, що порушує міжнародні норми (наркотики, зброя, торгівля людьми, тероризм тощо), ми можемо подати скаргу на закриття каналу, заблокувати обліковий запис користувача, і кошти не повертаються. Користувачі несуть відповідальність за те, щоб їх використання сервісу відповідало всім застосовним законам і нормативам."
+
+#. js-lingui-explicit-id
+msgid "10. Support"
+msgstr "10. Підтримка"
 
 #. js-lingui-explicit-id
 msgid "For assistance with technical issues, subscription questions, or other inquiries, users can contact us at {CONTACT_EMAIL}. Our team strives to address support requests promptly, typically within 48 hours."
 msgstr "Для отримання допомоги з технічними проблемами, питаннями підписки або іншими запитаннями користувачі можуть зв'язатися з нами за адресою {CONTACT_EMAIL}. Наша команда прагне оперативно вирішувати запити підтримки, зазвичай протягом 48 годин."
 
 #. js-lingui-explicit-id
-msgid "10. Account Deletion"
-msgstr "10. Видалення облікового запису"
+msgid "11. Account Deletion"
+msgstr "11. Видалення облікового запису"
 
 #. js-lingui-explicit-id
 msgid "If you wish to delete your account, you can do so through the app's settings or by submitting a request via the developer's feedback form at the following link: https://vb-dev.org.ua/#feedback."
 msgstr "Якщо ви бажаєте видалити свій обліковий запис, ви можете зробити це через налаштування додатку або надіславши запит через форму зворотного зв'язку розробника за наступним посиланням: https://vb-dev.org.ua/#feedback."
 
 #. js-lingui-explicit-id
-msgid "11. Apple's Standard Terms"
-msgstr "11. Стандартні умови Apple"
+msgid "12. Apple's Standard Terms"
+msgstr "12. Стандартні умови Apple"
 
 #. js-lingui-explicit-id
 msgid "In addition to these Terms of Use, {NAME_APP} operates under the Apple Standard End User License Agreement (EULA), which can be found at the following link:"
