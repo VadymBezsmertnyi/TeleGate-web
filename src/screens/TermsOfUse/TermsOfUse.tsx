@@ -15,7 +15,11 @@ const TermsOfUse: FunctionComponent = () => {
   const line = (subTitle: string, text: string, list: string[] = []) => (
     <>
       {subTitle.length ? <h4 className={styles.subTitle}>{subTitle}</h4> : null}
-      {text.length ? <p className={styles.text}>{text}</p> : null}
+      {text.length ? (
+        <p className={text.includes("Price:") ? styles.price : styles.text}>
+          {text}
+        </p>
+      ) : null}
       {list.length ? (
         <ul className={styles.list}>
           {list.map((item, index) => (
@@ -81,7 +85,7 @@ const TermsOfUse: FunctionComponent = () => {
         )}
       </div>
       <div>
-        {line(i18n._(`🆓 Free Plan`), "", [
+        {line(i18n._("Free Plan"), "", [
           i18n._("Manage 1 group"),
           i18n._("Up to 20 members per group"),
           i18n._("No filters"),
@@ -91,7 +95,7 @@ const TermsOfUse: FunctionComponent = () => {
         ])}
       </div>
       <div>
-        {line(i18n._(`💼 Pro Plan`), i18n._("Price: $5.99 per month"), [
+        {line(i18n._("Pro Plan"), i18n._("Price: $5.99 per month"), [
           i18n._("Manage up to 5 groups"),
           i18n._("Up to 100 members per group"),
           i18n._("Available filters"),
@@ -101,7 +105,7 @@ const TermsOfUse: FunctionComponent = () => {
         ])}
       </div>
       <div>
-        {line(i18n._(`🚀 Ultimate Plan`), i18n._("Price: $11.99 per month"), [
+        {line(i18n._("Ultimate Plan"), i18n._("Price: $11.99 per month"), [
           i18n._("Manage unlimited groups"),
           i18n._("Unlimited members"),
           i18n._("Smart filters (activity, dates, tags, last activity)"),
