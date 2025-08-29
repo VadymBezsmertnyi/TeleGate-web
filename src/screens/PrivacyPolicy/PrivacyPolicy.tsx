@@ -35,7 +35,7 @@ export const PrivacyPolicy: FunctionComponent = () => {
         <p className={styles.text}>
           <strong>{i18n._("Last updated:")}</strong>{" "}
           {i18n._("August {numberDay}, 2025", {
-            numberDay: 18,
+            numberDay: 29,
           })}
         </p>
         <p className={styles.text}>
@@ -133,11 +133,21 @@ export const PrivacyPolicy: FunctionComponent = () => {
             "We may share your data with third parties in the following cases:"
           ),
           [
-            i18n._("Telegram API: for service functionality and bot operations."),
-            i18n._("Payment processors: Apple App Store and Google Play for subscription billing."),
-            i18n._("Analytics services: for service improvement (anonymized data only)."),
-            i18n._("Legal requirements: when required by law or to protect our rights."),
-            i18n._("Telegram moderation: for reporting content that violates international norms."),
+            i18n._(
+              "Telegram API: for service functionality and bot operations."
+            ),
+            i18n._(
+              "Payment processors: Apple App Store and Google Play for subscription billing."
+            ),
+            i18n._(
+              "Analytics services: for service improvement (anonymized data only)."
+            ),
+            i18n._(
+              "Legal requirements: when required by law or to protect our rights."
+            ),
+            i18n._(
+              "Telegram moderation: for reporting content that violates international norms."
+            ),
           ]
         )}
         {line(
