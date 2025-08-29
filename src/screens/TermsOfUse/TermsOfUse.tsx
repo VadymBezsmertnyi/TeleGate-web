@@ -16,11 +16,15 @@ const TermsOfUse: FunctionComponent = () => {
     <>
       {subTitle.length ? <h4 className={styles.subTitle}>{subTitle}</h4> : null}
       {text.length ? (
-        <p className={
-          text.includes("Price: Free") ? styles.priceFree :
-          text.includes("Price:") ? styles.price : 
-          styles.text
-        }>
+        <p
+          className={
+            text.includes("Price: Free")
+              ? styles.priceFree
+              : text.includes("Price:")
+              ? styles.price
+              : styles.text
+          }
+        >
           {text}
         </p>
       ) : null}
@@ -152,14 +156,23 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`8. Limitation of Liability`),
           i18n._(
-            `{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the service. This includes issues caused by errors, interruptions, Telegram API limitations, or unauthorized access to data.`,
+            `{NAME_APP} and its developers are not responsible for any damages resulting from the use or inability to use the service. This includes issues caused by errors, interruptions, Telegram API limitations, or unauthorized access to data. We are not responsible for illegal use of the application by users.`,
             { NAME_APP }
           )
         )}
       </div>
       <div>
         {line(
-          i18n._(`9. Support`),
+          i18n._(`9. Prohibited Activities and Content Monitoring`),
+          i18n._(
+            `We may monitor channels to which the bot is connected. In case of detecting content that violates international norms (drugs, weapons, human trafficking, terrorism, etc.), we may submit a complaint to close the channel, block the user account, and funds will not be refunded. Users are responsible for ensuring that their use of the service complies with all applicable laws and regulations.`,
+            { NAME_APP }
+          )
+        )}
+      </div>
+      <div>
+        {line(
+          i18n._(`10. Support`),
           i18n._(
             `For assistance with technical issues, subscription questions, or other inquiries, users can contact us at {CONTACT_EMAIL}. Our team strives to address support requests promptly, typically within 48 hours.`,
             { CONTACT_EMAIL }
@@ -168,7 +181,7 @@ const TermsOfUse: FunctionComponent = () => {
       </div>
       <div>
         {line(
-          i18n._(`10. Account Deletion`),
+          i18n._(`11. Account Deletion`),
           i18n._(
             `If you wish to delete your account, you can do so through the app's settings or by submitting a request via the developer's feedback form at the following link: https://vb-dev.org.ua/#feedback.`
           )
@@ -176,7 +189,7 @@ const TermsOfUse: FunctionComponent = () => {
       </div>
       <div>
         {line(
-          i18n._(`11. Apple's Standard Terms`),
+          i18n._(`12. Apple's Standard Terms`),
           i18n._(
             `In addition to these Terms of Use, {NAME_APP} operates under the Apple Standard End User License Agreement (EULA), which can be found at the following link:`,
             { NAME_APP }

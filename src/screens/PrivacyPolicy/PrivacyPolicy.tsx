@@ -137,12 +137,19 @@ export const PrivacyPolicy: FunctionComponent = () => {
             "Payment processors: Apple App Store and Google Play for subscription billing.",
             "Analytics services: for service improvement (anonymized data only).",
             "Legal requirements: when required by law or to protect our rights.",
+            "Telegram moderation: for reporting content that violates international norms.",
           ]
         )}
         {line(
           i18n._("International Data Transfers"),
           i18n._(
             "Your data may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place to protect your data in accordance with applicable data protection laws."
+          )
+        )}
+        {line(
+          i18n._("Content Monitoring and Prohibited Activities"),
+          i18n._(
+            "We may monitor channels to which the bot is connected to ensure compliance with international norms and laws. In case of detecting content that violates international standards (drugs, weapons, human trafficking, terrorism, etc.), we may submit complaints to relevant authorities, block user accounts, and take other necessary actions. Funds will not be refunded in such cases. This monitoring is conducted to protect our service and comply with legal obligations."
           )
         )}
         {line(
