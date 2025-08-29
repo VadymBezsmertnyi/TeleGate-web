@@ -120,11 +120,11 @@ export const PrivacyPolicy: FunctionComponent = () => {
             "Your data is protected using industry-standard security measures. We implement the following security practices:"
           ),
           [
-            "End-to-end encryption for data transmission.",
-            "Secure API authentication with Telegram.",
-            "Limited access to servers where information is stored.",
-            "Regular security updates and monitoring.",
-            "Compliance with Telegram's security requirements.",
+            i18n._("End-to-end encryption for data transmission."),
+            i18n._("Secure API authentication with Telegram."),
+            i18n._("Limited access to servers where information is stored."),
+            i18n._("Regular security updates and monitoring."),
+            i18n._("Compliance with Telegram's security requirements."),
           ]
         )}
         {line(
@@ -133,11 +133,11 @@ export const PrivacyPolicy: FunctionComponent = () => {
             "We may share your data with third parties in the following cases:"
           ),
           [
-            "Telegram API: for service functionality and bot operations.",
-            "Payment processors: Apple App Store and Google Play for subscription billing.",
-            "Analytics services: for service improvement (anonymized data only).",
-            "Legal requirements: when required by law or to protect our rights.",
-            "Telegram moderation: for reporting content that violates international norms.",
+            i18n._("Telegram API: for service functionality and bot operations."),
+            i18n._("Payment processors: Apple App Store and Google Play for subscription billing."),
+            i18n._("Analytics services: for service improvement (anonymized data only)."),
+            i18n._("Legal requirements: when required by law or to protect our rights."),
+            i18n._("Telegram moderation: for reporting content that violates international norms."),
           ]
         )}
         {line(
