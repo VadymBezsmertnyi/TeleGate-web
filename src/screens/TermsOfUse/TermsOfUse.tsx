@@ -12,15 +12,21 @@ import styles from "./TermsOfUse.module.css";
 const TermsOfUse: FunctionComponent = () => {
   const { i18n } = useLocalesProvider();
 
-  const line = (subTitle: string, text: string, list: string[] = []) => (
+  const line = (
+    subTitle: string,
+    text: string,
+    list: string[] = [],
+    isPrice: boolean = false,
+    isFreePrice: boolean = false
+  ) => (
     <>
       {subTitle.length ? <h4 className={styles.subTitle}>{subTitle}</h4> : null}
       {text.length ? (
         <p
           className={
-            text.includes("Price: Free")
+            isFreePrice
               ? styles.priceFree
-              : text.includes("Price:")
+              : isPrice
               ? styles.price
               : styles.text
           }
@@ -93,38 +99,58 @@ const TermsOfUse: FunctionComponent = () => {
         )}
       </div>
       <div>
-        {line(i18n._("Free Plan"), i18n._("Price: Free"), [
-          i18n._("Manage 1 group"),
-          i18n._("Up to 20 members per group"),
-          i18n._("No filters"),
-          i18n._("No analytics"),
-          i18n._("No bot templates"),
-          i18n._("No automation"),
-        ])}
+        {line(
+          i18n._("Free Plan"),
+          i18n._("Price: Free"),
+          [
+            i18n._("Manage 1 group"),
+            i18n._("Up to 20 members per group"),
+            i18n._("No filters"),
+            i18n._("No analytics"),
+            i18n._("No bot templates"),
+            i18n._("No automation"),
+          ],
+          false,
+          true
+        )}
       </div>
       <div>
-        {line(i18n._("Pro Plan"), i18n._("Price: $5.99 per month"), [
-          i18n._("Manage up to 5 groups"),
-          i18n._("Up to 100 members per group"),
-          i18n._("Available filters"),
-          i18n._("Basic analytics (statistics by groups and members)"),
-          i18n._("Bot templates (greetings, auto-messages)"),
-          i18n._("No automation"),
-        ])}
+        {line(
+          i18n._("Pro Plan"),
+          i18n._("Price: $5.99 per month"),
+          [
+            i18n._("Manage up to 5 groups"),
+            i18n._("Up to 100 members per group"),
+            i18n._("Available filters"),
+            i18n._("Basic analytics (statistics by groups and members)"),
+            i18n._("Bot templates (greetings, auto-messages)"),
+            i18n._("No automation"),
+          ],
+          true,
+          false
+        )}
       </div>
       <div>
-        {line(i18n._("Ultimate Plan"), i18n._("Price: $11.99 per month"), [
-          i18n._("Manage unlimited groups"),
-          i18n._("Unlimited members"),
-          i18n._("Smart filters (activity, dates, tags, last activity)"),
-          i18n._(
-            "Full analytics (graphs, growth dynamics, behavioral metrics)"
-          ),
-          i18n._("Advanced bot scenarios (funnels, reminders, autoprocesses)"),
-          i18n._(
-            "Automation (planned: auto-kick inactive, reminders, auto-messages)"
-          ),
-        ])}
+        {line(
+          i18n._("Ultimate Plan"),
+          i18n._("Price: $11.99 per month"),
+          [
+            i18n._("Manage unlimited groups"),
+            i18n._("Unlimited members"),
+            i18n._("Smart filters (activity, dates, tags, last activity)"),
+            i18n._(
+              "Full analytics (graphs, growth dynamics, behavioral metrics)"
+            ),
+            i18n._(
+              "Advanced bot scenarios (funnels, reminders, autoprocesses)"
+            ),
+            i18n._(
+              "Automation (planned: auto-kick inactive, reminders, auto-messages)"
+            ),
+          ],
+          true,
+          false
+        )}
       </div>
       <div>
         {line(
