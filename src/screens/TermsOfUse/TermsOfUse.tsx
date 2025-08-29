@@ -16,7 +16,11 @@ const TermsOfUse: FunctionComponent = () => {
     <>
       {subTitle.length ? <h4 className={styles.subTitle}>{subTitle}</h4> : null}
       {text.length ? (
-        <p className={text.includes("Price:") ? styles.price : styles.text}>
+        <p className={
+          text.includes("Price: Free") ? styles.priceFree :
+          text.includes("Price:") ? styles.price : 
+          styles.text
+        }>
           {text}
         </p>
       ) : null}
@@ -85,7 +89,7 @@ const TermsOfUse: FunctionComponent = () => {
         )}
       </div>
       <div>
-        {line(i18n._("Free Plan"), "", [
+        {line(i18n._("Free Plan"), i18n._("Price: Free"), [
           i18n._("Manage 1 group"),
           i18n._("Up to 20 members per group"),
           i18n._("No filters"),

@@ -57,6 +57,14 @@
   text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
 }
 
+.priceFree {
+  font-weight: 700;
+  font-size: 18px;
+  color: #10b981;
+  margin-top: 5px;
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+}
+
 .list {
   margin-top: 10px;
   margin-left: 20px;
