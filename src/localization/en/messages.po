@@ -254,12 +254,52 @@ msgid "Your data is protected using industry-standard security measures. We impl
 msgstr "Your data is protected using industry-standard security measures. We implement the following security practices:"
 
 #. js-lingui-explicit-id
+msgid "End-to-end encryption for data transmission."
+msgstr "End-to-end encryption for data transmission."
+
+#. js-lingui-explicit-id
+msgid "Secure API authentication with Telegram."
+msgstr "Secure API authentication with Telegram."
+
+#. js-lingui-explicit-id
+msgid "Limited access to servers where information is stored."
+msgstr "Limited access to servers where information is stored."
+
+#. js-lingui-explicit-id
+msgid "Regular security updates and monitoring."
+msgstr "Regular security updates and monitoring."
+
+#. js-lingui-explicit-id
+msgid "Compliance with Telegram's security requirements."
+msgstr "Compliance with Telegram's security requirements."
+
+#. js-lingui-explicit-id
 msgid "Sharing Information with Third Parties"
 msgstr "Sharing Information with Third Parties"
 
 #. js-lingui-explicit-id
 msgid "We may share your data with third parties in the following cases:"
 msgstr "We may share your data with third parties in the following cases:"
+
+#. js-lingui-explicit-id
+msgid "Telegram API: for service functionality and bot operations."
+msgstr "Telegram API: for service functionality and bot operations."
+
+#. js-lingui-explicit-id
+msgid "Payment processors: Apple App Store and Google Play for subscription billing."
+msgstr "Payment processors: Apple App Store and Google Play for subscription billing."
+
+#. js-lingui-explicit-id
+msgid "Analytics services: for service improvement (anonymized data only)."
+msgstr "Analytics services: for service improvement (anonymized data only)."
+
+#. js-lingui-explicit-id
+msgid "Legal requirements: when required by law or to protect our rights."
+msgstr "Legal requirements: when required by law or to protect our rights."
+
+#. js-lingui-explicit-id
+msgid "Telegram moderation: for reporting content that violates international norms."
+msgstr "Telegram moderation: for reporting content that violates international norms."
 
 #. js-lingui-explicit-id
 msgid "International Data Transfers"
