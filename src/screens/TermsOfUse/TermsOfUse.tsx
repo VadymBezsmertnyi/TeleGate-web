@@ -12,10 +12,19 @@ import styles from "./TermsOfUse.module.css";
 const TermsOfUse: FunctionComponent = () => {
   const { i18n } = useLocalesProvider();
 
-  const line = (subTitle: string, text: string) => (
+  const line = (subTitle: string, text: string, list: string[] = []) => (
     <>
       {subTitle.length ? <h4 className={styles.subTitle}>{subTitle}</h4> : null}
       {text.length ? <p className={styles.text}>{text}</p> : null}
+      {list.length ? (
+        <ul className={styles.list}>
+          {list.map((item, index) => (
+            <li className={styles.itemList} key={index}>
+              {item}
+            </li>
+          ))}
+        </ul>
+      ) : null}
     </>
   );
 
@@ -58,7 +67,7 @@ const TermsOfUse: FunctionComponent = () => {
         {line(
           i18n._(`3. Subscriptions and Payments`),
           i18n._(
-            `{NAME_APP} offers a free tier with basic features, and two premium subscription plans (Pro and Ultimate) for advanced functionality. All subscriptions are billed monthly. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law.`,
+            `{NAME_APP} offers a free tier with basic features, and two premium subscription plans (Pro and Ultimate) for advanced functionality. All subscriptions are billed monthly. Payments are processed through the Apple App Store or Google Play, according to their respective policies. Apple and Google may adjust subscription prices depending on your region. Subscriptions renew automatically unless canceled at least 24 hours before the end of the billing period. All payments are non-refundable unless required by applicable law.`,
             {
               NAME_APP,
             }
@@ -72,28 +81,38 @@ const TermsOfUse: FunctionComponent = () => {
         )}
       </div>
       <div>
-        {line(
-          i18n._(`- Free Plan`),
-          i18n._(
-            `- Basic group management features\n- Limited filters\n- Community support`
-          )
-        )}
+        {line(i18n._(`🆓 Free Plan`), "", [
+          i18n._("Manage 1 group"),
+          i18n._("Up to 20 members per group"),
+          i18n._("No filters"),
+          i18n._("No analytics"),
+          i18n._("No bot templates"),
+          i18n._("No automation"),
+        ])}
       </div>
       <div>
-        {line(
-          i18n._(`- Pro Plan`),
-          i18n._(
-            `- Price: $4.99 per month\n- Manage up to 5 groups\n- Advanced filters\n- Analytics tab access\n- Bot templates customization`
-          )
-        )}
+        {line(i18n._(`💼 Pro Plan`), i18n._("Price: $5.99 per month"), [
+          i18n._("Manage up to 5 groups"),
+          i18n._("Up to 100 members per group"),
+          i18n._("Available filters"),
+          i18n._("Basic analytics (statistics by groups and members)"),
+          i18n._("Bot templates (greetings, auto-messages)"),
+          i18n._("No automation"),
+        ])}
       </div>
       <div>
-        {line(
-          i18n._(`- Ultimate Plan`),
+        {line(i18n._(`🚀 Ultimate Plan`), i18n._("Price: $11.99 per month"), [
+          i18n._("Manage unlimited groups"),
+          i18n._("Unlimited members"),
+          i18n._("Smart filters (activity, dates, tags, last activity)"),
           i18n._(
-            `- Price: $9.99 per month\n- Unlimited groups\n- All analytics features\n- Priority support\n- Advanced bot automation`
-          )
-        )}
+            "Full analytics (graphs, growth dynamics, behavioral metrics)"
+          ),
+          i18n._("Advanced bot scenarios (funnels, reminders, autoprocesses)"),
+          i18n._(
+            "Automation (planned: auto-kick inactive, reminders, auto-messages)"
+          ),
+        ])}
       </div>
       <div>
         {line(
