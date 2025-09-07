@@ -4,7 +4,7 @@ import React, { FunctionComponent } from "react";
 import { useLocalesProvider } from "@/localization/localization.provider";
 
 // constants
-import { NAME_APP } from "@/constants";
+import { NAME_APP, CONTACT_EMAIL } from "@/constants";
 
 // styles
 import styles from "./About.module.css";
@@ -64,6 +64,96 @@ const About: FunctionComponent = () => {
       <p className={styles.subTitle}>
         {i18n._(`Thank you for choosing {NAME_APP}!`, { NAME_APP })}
       </p>
+
+      <div className={styles.infoSection}>
+        <h2 className={styles.sectionTitle}>{i18n._("App Version")}</h2>
+        <p className={styles.versionText}>{i18n._("Current version: 1.0.0")}</p>
+      </div>
+
+      <div className={styles.infoSection}>
+        <h2 className={styles.sectionTitle}>{i18n._("Supported Platforms")}</h2>
+        <ul className={styles.platformList}>
+          <li>{i18n._("iOS (iPhone & iPad)")}</li>
+          <li>{i18n._("Android")}</li>
+          <li>{i18n._("Web Browser")}</li>
+        </ul>
+      </div>
+
+      <div className={styles.infoSection}>
+        <h2 className={styles.sectionTitle}>
+          {i18n._("What makes us special")}
+        </h2>
+        <ul className={styles.list}>
+          <li>
+            {i18n._(
+              `Easy subscription management with secure payment processing.`
+            )}
+          </li>
+          <li>
+            {i18n._(
+              `Detailed analytics to track your bot's performance and user engagement.`
+            )}
+          </li>
+          <li>
+            {i18n._(
+              `Full automation capabilities for bot management and messaging.`
+            )}
+          </li>
+          <li>
+            {i18n._(
+              `Real-time notifications for important events and updates.`
+            )}
+          </li>
+          <li>
+            {i18n._(
+              `Works seamlessly across all your devices - iOS, Android, and Web.`
+            )}
+          </li>
+          <li>
+            {i18n._(
+              `Available in multiple languages for global accessibility.`
+            )}
+          </li>
+        </ul>
+      </div>
+
+      <div className={styles.infoSection}>
+        <h2 className={styles.sectionTitle}>{i18n._("Contact & Support")}</h2>
+        <p className={styles.contactInfo}>
+          {i18n._(
+            "For support, feedback, or business inquiries, please contact us:"
+          )}
+        </p>
+        <p className={styles.contactEmail}>
+          <a href={`mailto:${CONTACT_EMAIL}`} className={styles.link}>
+            {CONTACT_EMAIL}
+          </a>
+        </p>
+      </div>
+
+      <div className={styles.infoSection}>
+        <h2 className={styles.sectionTitle}>{i18n._("Legal")}</h2>
+        <div className={styles.legalLinks}>
+          <a href="/privacy-policy" className={styles.legalLink}>
+            {i18n._("Privacy Policy")}
+          </a>
+          <a href="/terms-of-use" className={styles.legalLink}>
+            {i18n._("Terms of Use")}
+          </a>
+        </div>
+      </div>
+
+      <div className={styles.infoSection}>
+        <h2 className={styles.sectionTitle}>{i18n._("About the Team")}</h2>
+        <p className={styles.developerInfo}>
+          {i18n._("Developed with ❤️ by our dedicated team")}
+        </p>
+        <p className={styles.developerNote}>
+          {i18n._(
+            "We're passionate about creating innovative solutions that make Telegram bot management simple and powerful."
+          )}
+        </p>
+      </div>
     </div>
   );
 };

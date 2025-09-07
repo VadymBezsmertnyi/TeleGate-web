@@ -72,3 +72,97 @@
   position: absolute;
   left: -15px;
 }
+
+.infoSection {
+  margin-top: 40px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.sectionTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #3b82f6;
+  margin-bottom: 20px;
+  text-align: left;
+  @media (max-width: 440px) {
+    font-size: 22px;
+  }
+}
+
+.versionText {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3b82f6;
+  text-align: center;
+  padding: 15px;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.platformList {
+  color: #e5e7eb;
+  margin-top: 15px;
+}
+
+.platformList li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.platformList li::before {
+  content: "✓";
+  color: #10b981;
+  font-weight: bold;
+  position: absolute;
+  left: -15px;
+}
+
+.contactInfo {
+  color: #e5e7eb;
+  margin-bottom: 15px;
+}
+
+.contactEmail {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.legalLinks {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.legalLink {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.legalLink:hover {
+  background: #3b82f6;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.developerInfo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3b82f6;
+  margin-bottom: 10px;
+}
+
+.developerNote {
+  color: #d1d5db;
+  font-style: italic;
+}
