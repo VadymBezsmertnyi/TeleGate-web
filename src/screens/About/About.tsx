@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from "react";
+import Link from "next/link";
 
 // providers
 import { useLocalesProvider } from "@/localization/localization.provider";
@@ -130,12 +131,12 @@ const About: FunctionComponent = () => {
       <div className={styles.infoSection}>
         <h2 className={styles.sectionTitle}>{i18n._("Legal")}</h2>
         <div className={styles.legalLinks}>
-          <a href="/privacy-policy" className={styles.legalLink}>
+          <Link href="/privacy-policy" className={styles.legalLink}>
             {i18n._("Privacy Policy")}
-          </a>
-          <a href="/terms-of-use" className={styles.legalLink}>
+          </Link>
+          <Link href="/terms-of-use" className={styles.legalLink}>
             {i18n._("Terms of Use")}
-          </a>
+          </Link>
         </div>
       </div>
 
