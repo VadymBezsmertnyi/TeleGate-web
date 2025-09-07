@@ -166,3 +166,9 @@
   color: #d1d5db;
   font-style: italic;
 }
+
+.inDevelopment {
+  opacity: 0.7;
+  font-style: italic;
+  color: #fbbf24;
+}

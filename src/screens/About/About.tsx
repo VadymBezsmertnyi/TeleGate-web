@@ -18,7 +18,7 @@ const About: FunctionComponent = () => {
       </h1>
       <p className={styles.title}>
         {i18n._(
-          `Welcome to {NAME_APP} – your comprehensive Telegram bot management platform! This app is designed to help you efficiently manage Telegram bots, groups, members, and automate messaging workflows.`,
+          `Welcome to {NAME_APP} – your comprehensive Telegram user management platform! This app helps you keep track of users and manage internal subscriptions in your Telegram groups without using external payment services.`,
           { NAME_APP }
         )}
       </p>
@@ -31,33 +31,38 @@ const About: FunctionComponent = () => {
         </li>
         <li>
           {i18n._(
-            `Group Management: Organize and manage Telegram groups and channels.`
+            `User & Subscription Management: Track and manage group members with internal subscription system.`
           )}
         </li>
         <li>
           {i18n._(
-            `Member Management: Track and manage group members with detailed profiles.`
+            `No External Payments: You decide subscription amounts - we don't handle any transactions.`
           )}
         </li>
         <li>
           {i18n._(
-            `Message Templates: Create and use customizable message templates for automated responses.`
+            `User Accounting: Perfect for groups that don't use external payment services.`
           )}
         </li>
-        <li>
+        <li className={styles.inDevelopment}>
           {i18n._(
-            `Analytics: Get insights into bot performance and user engagement.`
+            `Message Templates: Create and use customizable message templates for automated responses. (In Development)`
           )}
         </li>
-        <li>
+        <li className={styles.inDevelopment}>
           {i18n._(
-            `Push Notifications: Receive real-time notifications for important events.`
+            `Analytics: Get insights into bot performance and user engagement. (In Development)`
+          )}
+        </li>
+        <li className={styles.inDevelopment}>
+          {i18n._(
+            `Push Notifications: Receive real-time notifications for important events. (In Development)`
           )}
         </li>
       </ul>
       <p className={styles.subTitle}>
         {i18n._(
-          `We are constantly working to improve our platform to make Telegram bot management even more efficient and powerful. Your feedback and suggestions help us enhance {NAME_APP} and bring new features to make your bot management experience seamless.`,
+          `We are constantly working to improve our platform to make Telegram user management even more efficient and powerful. Your feedback and suggestions help us enhance {NAME_APP} and bring new features to make your user management experience seamless.`,
           { NAME_APP }
         )}
       </p>
@@ -86,23 +91,21 @@ const About: FunctionComponent = () => {
         <ul className={styles.list}>
           <li>
             {i18n._(
-              `Easy subscription management with secure payment processing.`
+              `Internal subscription management - you control all amounts and terms.`
             )}
           </li>
           <li>
             {i18n._(
-              `Detailed analytics to track your bot's performance and user engagement.`
+              `No external payment processing - we don't handle any transactions.`
             )}
           </li>
           <li>
             {i18n._(
-              `Full automation capabilities for bot management and messaging.`
+              `Perfect for groups that manage subscriptions independently.`
             )}
           </li>
           <li>
-            {i18n._(
-              `Real-time notifications for important events and updates.`
-            )}
+            {i18n._(`Comprehensive user tracking and management system.`)}
           </li>
           <li>
             {i18n._(
