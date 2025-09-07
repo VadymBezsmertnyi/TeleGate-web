@@ -82,6 +82,90 @@ msgid "Thank you for choosing {NAME_APP}!"
 msgstr "Дякуємо, що обрали {NAME_APP}!"
 
 #. js-lingui-explicit-id
+msgid "App Version"
+msgstr "Версія додатку"
+
+#. js-lingui-explicit-id
+msgid "Current version: 1.0.0"
+msgstr "Поточна версія: 1.0.0"
+
+#. js-lingui-explicit-id
+msgid "Supported Platforms"
+msgstr "Підтримувані платформи"
+
+#. js-lingui-explicit-id
+msgid "iOS (iPhone & iPad)"
+msgstr "iOS (iPhone та iPad)"
+
+#. js-lingui-explicit-id
+msgid "Android"
+msgstr "Android"
+
+#. js-lingui-explicit-id
+msgid "Web Browser"
+msgstr "Веб-браузер"
+
+#. js-lingui-explicit-id
+msgid "What makes us special"
+msgstr "Що робить нас особливими"
+
+#. js-lingui-explicit-id
+msgid "Easy subscription management with secure payment processing."
+msgstr "Легке керування підписками з безпечною обробкою платежів."
+
+#. js-lingui-explicit-id
+msgid "Detailed analytics to track your bot's performance and user engagement."
+msgstr "Детальна аналітика для відстеження продуктивності вашого бота та залученості користувачів."
+
+#. js-lingui-explicit-id
+msgid "Full automation capabilities for bot management and messaging."
+msgstr "Повні можливості автоматизації для управління ботами та обміну повідомленнями."
+
+#. js-lingui-explicit-id
+msgid "Real-time notifications for important events and updates."
+msgstr "Сповіщення в реальному часі про важливі події та оновлення."
+
+#. js-lingui-explicit-id
+msgid "Works seamlessly across all your devices - iOS, Android, and Web."
+msgstr "Працює безперебійно на всіх ваших пристроях - iOS, Android та Web."
+
+#. js-lingui-explicit-id
+msgid "Available in multiple languages for global accessibility."
+msgstr "Доступний кількома мовами для глобальної доступності."
+
+#. js-lingui-explicit-id
+msgid "Contact & Support"
+msgstr "Контакти та підтримка"
+
+#. js-lingui-explicit-id
+msgid "For support, feedback, or business inquiries, please contact us:"
+msgstr "Для підтримки, відгуків або ділових запитів, будь ласка, зв'яжіться з нами:"
+
+#. js-lingui-explicit-id
+msgid "Legal"
+msgstr "Юридична інформація"
+
+#. js-lingui-explicit-id
+msgid "Privacy Policy"
+msgstr "Політика конфіденційності"
+
+#. js-lingui-explicit-id
+msgid "Terms of Use"
+msgstr "Умови використання"
+
+#. js-lingui-explicit-id
+msgid "About the Team"
+msgstr "Про команду"
+
+#. js-lingui-explicit-id
+msgid "Developed with ❤️ by our dedicated team"
+msgstr "Розроблено з ❤️ нашою відданою командою"
+
+#. js-lingui-explicit-id
+msgid "We're passionate about creating innovative solutions that make Telegram bot management simple and powerful."
+msgstr "Ми захоплені створенням інноваційних рішень, які роблять управління Telegram-ботами простим і потужним."
+
+#. js-lingui-explicit-id
 msgid "How to delete personal data?"
 msgstr "Як видалити особисті дані?"
 
@@ -128,10 +212,6 @@ msgstr "Завантажити в App Store"
 #. js-lingui-explicit-id
 msgid "Get it on Google Play"
 msgstr "Отримати в Google Play"
-
-#. js-lingui-explicit-id
-msgid "Privacy Policy"
-msgstr "Політика конфіденційності"
 
 #. js-lingui-explicit-id
 msgid "Last updated:"
@@ -376,10 +456,6 @@ msgstr "Контактна інформація"
 #. js-lingui-explicit-id
 msgid "If you have questions about this Privacy Policy, contact us at {CONTACT_EMAIL}."
 msgstr "Якщо у вас є питання щодо цієї Політики конфіденційності, зв'яжіться з нами за адресою {CONTACT_EMAIL}."
-
-#. js-lingui-explicit-id
-msgid "Terms of Use"
-msgstr "Умови використання"
 
 #. js-lingui-explicit-id
 msgid "\"{NAME_APP}\" mobile application and web service is developed by Vadym Bezsmertnyi, FOP (\"us\", \"we\", or \"our\"). By accessing or using our mobile application and web services (\"Service\"), you (the User) agree to abide by and be bound by these Terms of Use. Please read these terms carefully before using the service."
