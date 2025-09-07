@@ -71,8 +71,14 @@ const About: FunctionComponent = () => {
       </p>
 
       <div className={styles.infoSection}>
-        <h2 className={styles.sectionTitle}>{i18n._("App Version")}</h2>
-        <p className={styles.versionText}>{i18n._("Current version: 1.0.0")}</p>
+        <h2 className={styles.sectionTitle}>{i18n._("Available Platforms")}</h2>
+        <ul className={styles.platformList}>
+          <li>{i18n._("iOS (iPhone & iPad)")}</li>
+          <li>{i18n._("Android")}</li>
+          <li className={styles.inDevelopment}>
+            {i18n._("Web Browser (In Development)")}
+          </li>
+        </ul>
       </div>
 
       <div className={styles.infoSection}>

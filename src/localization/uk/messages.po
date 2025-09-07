@@ -86,12 +86,20 @@ msgid "Thank you for choosing {NAME_APP}!"
 msgstr "Дякуємо, що обрали {NAME_APP}!"
 
 #. js-lingui-explicit-id
-msgid "App Version"
-msgstr "Версія додатку"
+msgid "Available Platforms"
+msgstr "Доступні платформи"
 
 #. js-lingui-explicit-id
-msgid "Current version: 1.0.0"
-msgstr "Поточна версія: 1.0.0"
+msgid "iOS (iPhone & iPad)"
+msgstr "iOS (iPhone та iPad)"
+
+#. js-lingui-explicit-id
+msgid "Android"
+msgstr "Android"
+
+#. js-lingui-explicit-id
+msgid "Web Browser (In Development)"
+msgstr "Веб-браузер (у розробці)"
 
 #. js-lingui-explicit-id
 msgid "What makes us special"
