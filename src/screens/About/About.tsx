@@ -76,15 +76,6 @@ const About: FunctionComponent = () => {
       </div>
 
       <div className={styles.infoSection}>
-        <h2 className={styles.sectionTitle}>{i18n._("Supported Platforms")}</h2>
-        <ul className={styles.platformList}>
-          <li>{i18n._("iOS (iPhone & iPad)")}</li>
-          <li>{i18n._("Android")}</li>
-          <li>{i18n._("Web Browser")}</li>
-        </ul>
-      </div>
-
-      <div className={styles.infoSection}>
         <h2 className={styles.sectionTitle}>
           {i18n._("What makes us special")}
         </h2>
@@ -107,11 +98,7 @@ const About: FunctionComponent = () => {
           <li>
             {i18n._(`Comprehensive user tracking and management system.`)}
           </li>
-          <li>
-            {i18n._(
-              `Works seamlessly across all your devices - iOS, Android, and Web.`
-            )}
-          </li>
+          <li>{i18n._(`Available on iOS and Android devices.`)}</li>
           <li>
             {i18n._(
               `Available in multiple languages for global accessibility.`

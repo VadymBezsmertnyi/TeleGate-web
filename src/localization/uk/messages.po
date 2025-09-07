@@ -94,22 +94,6 @@ msgid "Current version: 1.0.0"
 msgstr "Поточна версія: 1.0.0"
 
 #. js-lingui-explicit-id
-msgid "Supported Platforms"
-msgstr "Підтримувані платформи"
-
-#. js-lingui-explicit-id
-msgid "iOS (iPhone & iPad)"
-msgstr "iOS (iPhone та iPad)"
-
-#. js-lingui-explicit-id
-msgid "Android"
-msgstr "Android"
-
-#. js-lingui-explicit-id
-msgid "Web Browser"
-msgstr "Веб-браузер"
-
-#. js-lingui-explicit-id
 msgid "What makes us special"
 msgstr "Що робить нас особливими"
 
@@ -130,8 +114,8 @@ msgid "Comprehensive user tracking and management system."
 msgstr "Комплексна система відстеження та управління користувачами."
 
 #. js-lingui-explicit-id
-msgid "Works seamlessly across all your devices - iOS, Android, and Web."
-msgstr "Працює безперебійно на всіх ваших пристроях - iOS, Android та Web."
+msgid "Available on iOS and Android devices."
+msgstr "Доступно на пристроях iOS та Android."
 
 #. js-lingui-explicit-id
 msgid "Available in multiple languages for global accessibility."

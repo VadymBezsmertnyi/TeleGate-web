@@ -94,22 +94,6 @@ msgid "Current version: 1.0.0"
 msgstr "Current version: 1.0.0"
 
 #. js-lingui-explicit-id
-msgid "Supported Platforms"
-msgstr "Supported Platforms"
-
-#. js-lingui-explicit-id
-msgid "iOS (iPhone & iPad)"
-msgstr "iOS (iPhone & iPad)"
-
-#. js-lingui-explicit-id
-msgid "Android"
-msgstr "Android"
-
-#. js-lingui-explicit-id
-msgid "Web Browser"
-msgstr "Web Browser"
-
-#. js-lingui-explicit-id
 msgid "What makes us special"
 msgstr "What makes us special"
 
@@ -130,8 +114,8 @@ msgid "Comprehensive user tracking and management system."
 msgstr "Comprehensive user tracking and management system."
 
 #. js-lingui-explicit-id
-msgid "Works seamlessly across all your devices - iOS, Android, and Web."
-msgstr "Works seamlessly across all your devices - iOS, Android, and Web."
+msgid "Available on iOS and Android devices."
+msgstr "Available on iOS and Android devices."
 
 #. js-lingui-explicit-id
 msgid "Available in multiple languages for global accessibility."
