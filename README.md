@@ -1,60 +1,98 @@
 # TeleGate Web
 
-TeleGate Web - це веб-сайт для платформи управління Telegram ботами.
+TeleGate Web is a marketing and legal-information website for the TeleGate mobile product, a Telegram bot management platform.
 
-## Опис
+## Overview
 
-TeleGate Web надає інформацію про додаток TeleGate, який допомагає керувати Telegram ботами, групами та повідомленнями з потужними інструментами автоматизації.
+The project provides:
 
-## Функції
+- a landing page with product messaging and App Store / Google Play links;
+- legal pages (About, Privacy Policy, Terms of Use);
+- mobile-specific legal routes (including account deletion guidance);
+- localization support for English and Ukrainian.
 
-- **Управління ботами**: Створюйте та керуйте кількома Telegram ботами
-- **Управління групами**: Організовуйте та керуйте Telegram групами та каналами
-- **Управління учасниками**: Відстежуйте та керуйте учасниками груп
-- **Шаблони повідомлень**: Створюйте налаштовувані шаблони повідомлень
-- **Аналітика**: Отримуйте інсайти про продуктивність ботів
-- **Push-сповіщення**: Отримуйте сповіщення в реальному часі
+## Tech Stack
 
-## Технології
+- Next.js 14 (Pages Router)
+- React 18
+- TypeScript 5 (strict mode)
+- Material UI (MUI) + Emotion
+- Lingui i18n (`@lingui/react`, `@lingui/cli`, PO catalogs)
+- Zod (schema validation utilities)
 
-- **Next.js** - React фреймворк
-- **TypeScript** - типізований JavaScript
-- **Material-UI** - UI компоненти
-- **Lingui** - інтернаціоналізація
+## Project Structure
 
-## Запуск проекту
+```text
+src/
+	app/                  # Global styles
+	components/           # Shared UI and layout components
+	constants/            # Shared constants
+	localization/         # i18n provider, helpers, message catalogs (en/uk)
+	pages/                # Next.js routes
+	providers/            # App-level providers and constants
+	screens/              # Page-level screen components
+public/                 # Static assets
+```
+
+## Main Routes
+
+- `/` - Landing page
+- `/about` - About page
+- `/privacy-policy` - Privacy policy
+- `/term-of-use` - Terms of use
+- `/mobile/about` - Mobile about page
+- `/mobile/privacy-policy` - Mobile privacy policy
+- `/mobile/term-of-use` - Mobile terms of use
+- `/mobile/how-delete-user` - Account deletion instructions
+
+## Localization
+
+- Locales: `en`, `uk`
+- Catalog path: `src/localization/{locale}/messages.po`
+- Lingui config: `lingui.config.ts`
+
+Useful i18n commands:
 
 ```bash
-# Встановлення залежностей
+npm run lingui:add
+npm run lingui:extract
+npm run lingui:compile
+```
+
+## Getting Started
+
+```bash
 npm install
-
-# Запуск в режимі розробки
 npm run dev
+```
 
-# Збірка для продакшену
+Open `http://localhost:3000`.
+
+Production commands:
+
+```bash
 npm run build
-
-# Запуск продакшен версії
-npm start
+npm run start
 ```
 
-Відкрийте [http://localhost:3000](http://localhost:3000) у браузері для перегляду результату.
+## Scripts
 
-## Структура проекту
+- `npm run dev` - start development server
+- `npm run build` - build for production
+- `npm run start` - run production server
+- `npm run lint` - run lint checks
+- `npm run lingui:add` - add locale
+- `npm run lingui:extract` - extract translation messages
+- `npm run lingui:compile` - compile translations to TypeScript
+- `npm run lingui:compile:ci` - strict compile for CI
 
-```
-src/
-├── components/     # React компоненти
-├── screens/        # Екрани додатку
-├── localization/   # Файли локалізації
-├── constants/      # Константи
-└── providers/      # React провайдери
-```
+## Security Notes
 
-## Локалізація
+- Keep all secrets in local environment files only (for example, `.env.local`).
+- Do not commit any API keys, OAuth secrets, JWT secrets, or private keys.
+- If a secret is exposed, rotate/revoke it immediately in the provider console.
+- `keys.txt` should not contain sensitive private material; store only non-secret metadata if needed.
 
-Проект підтримує українську та англійську мови. Файли локалізації знаходяться в `src/localization/`.
+## License
 
-## Ліцензія
-
-© 2024 TeleGate. Всі права захищені.
+Proprietary. All rights reserved.
